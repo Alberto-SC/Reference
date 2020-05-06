@@ -1,0 +1,145 @@
+\documentclass[12pt]{article}
+% \documentclass[leter]{amsart}
+\usepackage{lingmacros}
+\usepackage{tree-dvips}
+\usepackage{xparse}
+\usepackage{minted}
+\usepackage{multicol}
+\usepackage{tree-dvips}
+\usepackage[pdftex]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{courier}
+\usepackage{fancyhdr}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsthm}  
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[inline]{enumitem}
+\usepackage{float}
+\usepackage{cancel}
+\usepackage{bigints}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{listingsutf8}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{apacite}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xparse}
+\usepackage{geometry}
+\usepackage{mathtools}
+\usepackage{tipa}
+% \usepackage[margin=0.8in,landscape]{geometry}
+% \DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ right = 20mm,
+ }
+\ExplSyntaxOn
+\NewDocumentCommand{\mintedpath}{m}
+ {
+  \seq_gset_split:Nnn \g_paulie_mintedpath_seq { } { #1 }
+  \seq_gput_left:Nn \g_paulie_mintedpath_seq { }
+ }
+
+\seq_new:N \g_paulie_mintedpath_seq
+
+\NewDocumentCommand{\pathinputminted}{O{}mm}
+ {
+  \seq_map_inline:Nn \g_paulie_mintedpath_seq
+   {
+    \file_if_exist:nT { ##1 #3 }
+     {
+      \inputminted[#1]{#2}{##1 #3}
+      \seq_map_break:
+     }
+   }
+ }
+\ExplSyntaxOff
+% \newtheorem*{remark}{Remark}
+
+
+\geometry{landscape}
+% \setlength{\topmargin}{-0.25in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\columnsep}{1in}
+\setlength{\columnseprule}{0.2pt}
+
+\mintedpath{ {Estructuras/}  }
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\decimalpoint
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+  linkcolor=cyan,
+	urlcolor=black
+}
+\newcommand{\stirlingfirst}[2]{\genfrac{[}{]}{0pt}{}{#1}{#2}}
+\newcommand{\stirlingsecond}[2]{\genfrac{\{}{\}}{0pt}{}{#1}{#2}}
+\newcommand{\norm}[1]{\lVert#1\rVert}  
+\newcommand{\abs}[1]{\left\lvert #1 \right\lvert}
+\newcommand{\ve}[1]{\overrightarrow{#1}}
+\newcommand{\blank}{\text{\textcrb}}
+\newcommand{\xvdash}[1]{
+\vdash^{\mkern-10mu\scriptscriptstyle\rule[-.9ex]{0pt}{0pt}#1}%
+}
+\renewcommand{\footrulewidth}{0.5pt
+\setlength{\parskip}{0.5em}}
+
+\pagestyle{fancy}
+\setlength{\headheight}{15pt} 
+\rhead{\thepage}
+\lfoot{ESCOM-IPN}
+\lstdefinestyle{customc}{
+	belowcaptionskip=1\baselineskip,
+	breaklines=true,
+	frame=L,
+	xleftmargin=\parindent,
+	language=C++,
+	showstringspaces=false,
+	basicstyle=\ttfamily,
+	keywordstyle=\bfseries\color{green!40!black},
+	commentstyle=\itshape\color{purple!40!black},
+	identifierstyle=\color{blue},
+	numbers=left,
+	stringstyle=\color{orange},
+}
+\setlength{\columnseprule}{1pt}
+	% \def\columnseprulecolor{\color{Gray}}	
+\begin{document}
+\begin{center}
+  \Huge\textsc{ICPC Reference}\\
+  \vspace{0.30cm}
+  \huge Escuela Superior de Cómputo - IPN\\
+  \vspace{0.20cm}
+  \small Alberto Silva
+\end{center}
+\hrulefill
+\begin{multicols}{1}
+  \tableofcontents	
+  \clearpage
+
+  \input{Estructuras}
+  \input{Strings}
+  % \enlargethispage*{\baselineskip}
+  \input{math}
+% \pathinputminted{latex}{aa.tex}
+\end{multicols}
+\end{document}
