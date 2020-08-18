@@ -3,33 +3,44 @@ using namespace std;
 typedef long long int lli;
 const lli INF = 10e15;
 const int MAX = 1440007;
-lli D[MAX], N; 
+lli D[MAX];
+lli P[MAX];
+lli N;
+
 vector<pair<int,lli>> graph[MAX]; 
 void add_edge(int u,int  v,lli cost){
     graph[u].push_back({v,cost});
     graph[v].push_back({u,cost});
 }
 // dijkstra with priority queue
-void dijkstra(lli source){
-    for(int i = 1; i <= N; i++) D[i] = INF;
-    D[source] = 0;
-    priority_queue<pair<int,lli>,vector<pair<int,lli>>,greater<pair<int,lli>>> q;
-    q.push({0,source});
+vector<int> restore_path(int s, int t, vector<int> const& p) {
+    vector<int> path;
+    for (int v = t; v != s; v = p[v])
+        path.push_back(v);
+    path.push_back(s);
+    reverse(path.begin(), path.end());
+    return path;
+}
+void dijkstra(lli mxw){
+    for(int i=1;i<n;i++)D[i] = INF;
+    priority_queue<pair<lli,lli>,vector<pair<lli,lli>>,greater<pair<lli,lli>>> q;
+    q.push({0,0});
     while(!q.empty()){
-        pair<lli,int> p = q.top();
+        pair<lli,lli> p = q.top();
         q.pop();
-        int u = p.second;
-        lli dist = p.first;
+        int u = p.y;
+        lli dist = p.x;
         if(dist > D[u]) continue;
-        for(pair<int,int> pr : graph[u]){
-            int v = pr.first;
-            lli next_dist = dist + pr.second;
+        for(auto pr: graph[u]){
+            int v = pr.x;
+            lli next_dist = dist + pr.y;
             if(next_dist < D[v]){
                 D[v] = next_dist;
-				p[v] = u;
+                P[v] = u;
                 q.push({next_dist,v});
             }
-        }
+
+        }   
     }
 }
 const lli inf = 10000000000000ll;
@@ -60,7 +71,7 @@ int main(){
             int u = c.first;
             int w = c.second;
             if (d[v] + w < d[u]) {
-                s.erase(make_pair(d[u], u));
+                // s.erase(make_pair(d[u], u));
                 d[u] = d[v]+  w;
                 p[u] = v;
                 s.insert(make_pair(d[u], u));

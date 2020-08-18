@@ -4,29 +4,15 @@ int main(){
     string s;
     cin>>s;
     int n = s.size();
-    vector<int> d1(n);
-    for (int i=0, l=0, r=-1; i<n; i++) {
-        int k = (i>r)?1:min(d1[l+r-i],r-i+1);
-        while (0<=i-k && i+k<n && s[i-k] == s[i+k]) {
-            k++;
+    vector<vector<int>> p(2,vector<int>(n,0));
+    for(int z=1,l=0,r=0;z<2;z++,l=0,r=0)
+        for(int i=0;i<n;i++)
+        {
+            if(i<r) p[z][i]=min(r-i+!z,p[z][l+r-i+!z]);
+            int L=i-p[z][i], R=i+p[z][i]-!z;
+            cout<<L<<" "<<R<<" "<<(L-1>=0) <<" "<<(R+1<n)<<endl;
+            while(L-1>=0 && R+1<n && s[L-1]==s[R+1]) p[z][i]++,L--,R++;
+            if(R>r) l=L,r=R;
         }
-        d1[i] = k--;
-        if (i+k>r){
-            l=i-k;
-            r=i+k;
-        }
-    }
-    vector<int> d2(n);
-    for (int i=0,l=0,r=-1;i<n;i++) {
-        int k = (i>r) ? 0:min(d2[l+r-i+1], r-i+1);
-        while (0<=i-k-1 && i+k<n && s[i-k-1] == s[i+k]) {
-            k++;
-        }
-        d2[i] = k--;
-        if (i+k> r) {
-            l= i-k- 1;
-            r= i+k ;
-        }
-    }
-    for(int i = 0;i<n;i++)cout<<d1[i]<<" "<<d2[i]<<endl;
+    for(int i = 0;i<n;i++)cout<<p[0][i]<<" "<<p[1][i]<<endl;
 }   

@@ -23,12 +23,14 @@ int main(){
     int n = s.size();
     int m = t.size();
     string match = s+"$"+t;
-    vector<int> kmp =p_function(s);
-    // vector<int> ans(m-n+1);
-    // for(int i = 0; i < m - n + 1; i++)
-    //     if(kmp[2 * n + i] == n)
-    //         ans[i] = 1;
+    vector<int> kmp =p_function(match);
+    vector<int> ans(m-n+1);
+    for(int i = 0; i < m - n + 1; i++)
+        if(kmp[2 * n + i] == n)
+            ans[i] = 1;
     for(auto c:kmp)cout<<c<<" ";
+    cout<<endl;
+    for(auto c:ans)cout<<c<<" ";
     cout<<endl;
     return 0;
 }
