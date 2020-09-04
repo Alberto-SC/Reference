@@ -42,6 +42,31 @@ void add2D(int x, int y, int delta) {
             bit2D[i][j] += delta;
 }
 
+int binary_search(int s){
+    int l=0,r=n-1;
+    while(l<=r){
+        int m=(l+r)>>1;
+        if(sum(m)-1<s)
+            l=m+1;
+        else
+            r=m-1;
+    }
+    return l;
+}
+
+int bit_search(int s){
+    int sum = 0;
+    int pos = 0;
+    for(int i = ceil(log2(n));i>=0;i--){
+        if((pos+(1<<i))<n && (sum+bit[pos+(1<<i)])<s){
+            sum+=bit[pos+(1<<i)];
+            pos+=(1<<i);
+        }
+    }
+    return pos;
+}
+
+
 int main(){
     // ---------------------------------------------Test BIT----------------------------------------------------
     cin>>n;

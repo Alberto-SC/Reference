@@ -12,14 +12,10 @@ int gen_base(const int before, const int after) {
 }
 
 struct PolyHash {
-    // -------- Static variables --------
-    static vector<int> pow1;        // powers of base modulo mod
-    static vector<ull> pow2;        // powers of base modulo 2^64
-    static int base;                     // base (point of hashing)
-    
-    // --------- Static functons --------
+    static vector<int> pow1;   
+    static vector<ull> pow2;   
+    static int base;           
     static inline int diff(int a, int b) { 
-    	// Diff between `a` and `b` modulo mod (0 <= a < mod, 0 <= b < mod)
         return (a -= b) < 0 ? a + 2147483647 : a;
     }
     
@@ -29,23 +25,18 @@ struct PolyHash {
         return int((x >> 31) + (x & 2147483647));
     }
     
-    // -------------- Variables of class -------------
-    vector<int> pref1; // Hash on prefix modulo mod
-    vector<ull> pref2; // Hash on prefix modulo 2^64
+    vector<int> pref1; 
+    vector<ull> pref2; 
     
-    // Get power of base by modulo mod:
     inline int get_pow1(int p) const {
         static int __base[4] = {1, base, mod(ull(base) * base), mod(mod(ull(base) * base) * ull(base))};
         return mod(ull(__base[p % 4]) * pow1[p / 4]);
     }
     
-    // Get power of base by modulo 2^64:
     inline ull get_pow2(int p) const {
         static ull __base[4] = {ull(1), ull(base), ull(base) * base, ull(base) * base * base};
         return pow2[p / 4] * __base[p % 4];
-    }
-    
-    // Cunstructor from string:
+    }    
     PolyHash(const string& s)
         : pref1(s.size()+1u, 0)
         , pref2(s.size()+1u, 0)
@@ -53,18 +44,17 @@ struct PolyHash {
         const int n = s.size(); 
         pow1.reserve((n+3)/4);
         pow2.reserve((n+3)/4);
-        // Firstly calculated needed power of base:
-        int pow1_4 = mod(ull(base) * base); // base^2 mod 2^31-1
-        pow1_4 = mod(ull(pow1_4) * pow1_4); // base^4 mod 2^31-1
-        ull pow2_4 = ull(base) * base;      // base^2 mod 2^64
-        pow2_4 *= pow2_4;                   // base^4 mod 2^64
+        int pow1_4 = mod(ull(base) * base); 
+        pow1_4 = mod(ull(pow1_4) * pow1_4); 
+        ull pow2_4 = ull(base) * base;      
+        pow2_4 *= pow2_4;                   
         while (4 * (int)pow1.size() <= n) {
             pow1.push_back(mod((ull)pow1.back() * pow1_4));
             pow2.push_back(pow2.back() * pow2_4);
         }
         int curr_pow1 = 1;
         ull curr_pow2 = 1;
-        for (int i = 0; i < n; ++i) { // Fill arrays with polynomial hashes on prefix
+        for (int i = 0; i < n; ++i) { 
             assert(base > s[i]);
             pref1[i+1] = mod(pref1[i] + (ull)s[i] * curr_pow1);
             pref2[i+1] = pref2[i] + s[i] * curr_pow2;
@@ -73,8 +63,6 @@ struct PolyHash {
         }
     }
     
-    // Polynomial hash of subsequence [pos, pos+len)
-    // If mxPow != 0, value automatically multiply on base in needed power. Finally base ^ mxPow
     inline pair<int, ull> operator()(const int pos, const int len, const int mxPow = 0) const {
         int hash1 = pref1[pos+len] - pref1[pos];
         ull hash2 = pref2[pos+len] - pref2[pos];
@@ -86,8 +74,6 @@ struct PolyHash {
         return make_pair(hash1, hash2);
     }
 };
-
-// Init static variables of PolyHash class:
 int PolyHash::base((int)1e9+7);    
 vector<int> PolyHash::pow1{1};
 vector<ull> PolyHash::pow2{1};
@@ -99,11 +85,8 @@ int main() {
         scanf("%1000000s", &buf[0]);
         a = string(&buf[0]);
     }
-    
-    // Gen random base of hashing:
-    PolyHash::base = gen_base(256, 2147483647);
-    
-    // Cunstruct polynomial hashes on prefix of original and reversed string:
+
+    PolyHash::base = gen_base(256, 2147483647);    
     PolyHash hash_a(a); 
     reverse(a.begin(), a.end());
     PolyHash hash_b(a);

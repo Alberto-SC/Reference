@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 using u128 = __uint128_t;
@@ -53,8 +52,8 @@ u128 mmul(u128 x, u128 y) {
     return ans;
 }
 
-inline u128 f(u128 x, u128 inc) { return mmul(x, x) + inc; }
 
+inline u128 f(u128 x, u128 inc) { return mmul(x, x) + inc; }
 inline u128 gcd(u128 a, u128 b) {
     int shift = __builtin_ctzll(a | b);
     b >>= __builtin_ctzll(b);
@@ -66,6 +65,7 @@ inline u128 gcd(u128 a, u128 b) {
     }
     return b << shift;
 }
+
 
 inline u128 rho(u128 seed, u128 n, u64 inc) {
     static const int step = 1 << 9;
@@ -112,9 +112,7 @@ u128 rho(u128 x) {
         return 2;
     if (x % 3 == 0)
         return 3;
-
     uniform_int_distribution<u64> rng(2, u64(x) - 1);
-
     for (u128 i = 2; i < num_tries; i++) {
         u128 ans = rho(rng(rd), x, i);
         if (ans != 0 and ans != x)
@@ -152,13 +150,10 @@ void write(T x, char c) {
 int main() {
     u128 x;
     read<u128>(x);
-
     u128 a = Factor::factor(x);
     u128 b = x / a;
-
     if (a > b)
         swap(a, b);
-
     write<u128>(a, ' ');
     write<u128>(b, '\n');
 }

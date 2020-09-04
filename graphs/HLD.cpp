@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+//Decompose a tree in many paths that they are consecutive in an array then you can use range algorithms/data structures like segment tree for make querys 
+// like sums in a path with updates  v     
 const int maxn = 100007;
 vector<int> graph[maxn];
 void add_edge(int u,int v){

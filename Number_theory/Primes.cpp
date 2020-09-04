@@ -512,6 +512,15 @@ void factorize (lli n){
         }
     }
 }
+// Get prime factors of a number in time O(log(n)) with precompute array of lowest factor of a number up to 10^7 complexity of precalc is O(nlognlogn)
+// uses lowestprime
+vector<int> facts;
+void factorizeLog(lli n){
+    while(n>1){
+        facts.push_back(lowestPrime[n]);
+        n/=lowestPrime[n];
+    }
+}
 int main(){
 	lli n,i,j;
     cin>>n;
@@ -523,7 +532,11 @@ int main(){
     // if(!findPrimes(n))cout<<-1<<endl;
     // cout<<countDivisors(n);
     // factorize(n);
+    lowestPrimeSieve(10000000);
     factorize(n);
+    factorizeLog(n);
+    for(auto c:facts)cout<<c<<" ";
+    cout<<endl;
     // cout<<fact.size();
     for(auto c: fact)cout<<c.first<<"^"<<c.second<<" ";
 }
