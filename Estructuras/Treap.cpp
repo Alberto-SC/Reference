@@ -1,8 +1,3 @@
-// 3
-// su = sum update, ru = replace update, rev = reverse
-// psu = pending sum update, sz = size
-// pru = pending replace update
-// 8
 template <class T>
 struct ImplicitTreap {
   struct Node {

@@ -6,22 +6,24 @@ typedef long long int lli;
 	[Tested Timus 1141,1204]
 */
 int n;
-struct T1 {
-	int mx[(1 << 20) + 1];
-	inline void upd(int x, int val) {
-		x += n;
-		mx[x] = val;
-		for (; x /= 2; mx[x] = max(mx[x * 2], mx[x * 2 + 1]));
-	}
-	inline int fnd(int l, int r) {
-		int ans = 0;
-		for (l += n, r += n; l <= r; l = (l + 1) / 2, r = (r - 1) / 2) {
-			if (l & 1) ans = max(ans, mx[l]);
-			if (~r & 1) ans = max(ans, mx[r]);
-		}
-		return ans;
-	}
-};
+
+//Iterative Segment tree
+// struct ST {
+// 	int mx[(1 << 20) + 1];
+// 	inline void upd(int x, int val) {
+// 		x += n;
+// 		mx[x] = val;
+// 		for (; x /= 2; mx[x] = max(mx[x * 2], mx[x * 2 + 1]));
+// 	}
+// 	inline int fnd(int l, int r) {
+// 		int ans = 0;
+// 		for (l += n, r += n; l <= r; l = (l + 1) / 2, r = (r - 1) / 2) {
+// 			if (l & 1) ans = max(ans, mx[l]);
+// 			if (~r & 1) ans = max(ans, mx[r]);
+// 		}
+// 		return ans;
+// 	}
+// };
  
 
 vector<lli> st;

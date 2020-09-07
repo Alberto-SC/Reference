@@ -7,8 +7,8 @@ void propagate(int v,int l ,int r){
     if(!lazy[v])return ;
     st[v] += ((r-l)+1)*lazy[v];
     if(l!= r){
-        lazy[v*2] += lazy[v];
-        lazy[v*2+1]+= lazy[v];
+        lazy[v<<1] += lazy[v];
+        lazy[v<<1|1]+= lazy[v];
     }
     lazy[v] = 0;
 }
@@ -21,18 +21,18 @@ void update(int v,int sl,int sr,int l,int r,lli val){
         propagate(v,sl,sr);
         return;
     }
-    int m = (sl+sr)/2;
-    update(v*2,sl,m,l,r,val);
-    update(v*2+1,m+1,sr,l,r,val);
-    st[v] = st[v*2]+st[v*2+1];
+    int m = (sl+sr)>>1;
+    update(v<<1,sl,m,l,r,val);
+    update(v<<1|1,m+1,sr,l,r,val);
+    st[v] = st[v<<1]+st[v<<1|1];
 }
 
 lli query(int v,int sl,int sr,int l,int r){
     propagate(v,sl,sr);
     if(r<sl || l>sr || sl>sr)return 0;
     if(sl>= l && sr<=r)return st[v];
-    int m = (sl+sr)/2;
-    return query(v*2,sl,m,l,r)+query(v*2+1,m+1,sr,l,r);
+    int m = (sl+sr)>>1;
+    return query(v<<1,sl,m,l,r)+query(v<<1|1,m+1,sr,l,r);
 }
 
 int main(){
