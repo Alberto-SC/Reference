@@ -1,18 +1,5 @@
-/*
- * -----------------------------------------------------------------------------
- * "THE BEER-WARE LICENSE" (Revision 42):
- * <nlehmann@dcc.uchile.cl> wrote this file. As long as you retain this notice
- * you can do whatever you want with this stuff. If we meet some day, and you
- * think this stuff is worth it, you can buy me a beer in return Nicolás Lehmann
- * -----------------------------------------------------------------------------
- */
-#include <vector>
-#include <cstdio>
-#include <algorithm>
-#include "utils.hpp"
-#include "bitmap.hpp"
+#include <bits/stdc++.h>
 using namespace std;
-
 typedef unsigned int uint;
 
 // Wavelet Matrix with succinct representation of bitmaps
@@ -24,8 +11,6 @@ struct WaveMatrixSucc {
   WaveMatrixSucc(vector<int> &A) :
     WaveMatrixSucc(A, *max_element(A.begin(), A.end()) + 1) {}
 
-  // sigma = size of the alphabet, ie., one more than the maximum element
-  // in A.
   WaveMatrixSucc(vector<int> &A, int sigma)
     : height(log2(sigma - 1)),
       B(height), z(height) {
@@ -42,8 +27,6 @@ struct WaveMatrixSucc {
     }
   }
 
-  // Count occurrences of number c until position i.
-  // ie, occurrences of c in positions [0,i]
   int rank(int c, int i) const {
     int p = -1;
     for (uint l = 0; l < height; ++l) {
@@ -58,8 +41,7 @@ struct WaveMatrixSucc {
     return i - p;
   }
 
-  // Find the k-th smallest element in positions [i,j].
-  // The smallest element is k=1
+
   int quantile(int k, int i, int j) const {
     int element = 0;
     for (uint l = 0; l < height; ++l) {
@@ -77,9 +59,6 @@ struct WaveMatrixSucc {
     return element;
   }
 
-  // Count number of occurrences of numbers in the range [a, b]
-  // present in the sequence in positions [i, j], ie, if representing a grid it
-  // counts number of points in the specified rectangle.
   int range(int i, int j, int a, int b) const {
     return range(i, j, a, b, 0, (1 << height)-1, 0);
   }

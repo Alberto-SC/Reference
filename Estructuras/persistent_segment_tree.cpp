@@ -47,7 +47,7 @@ int query(int l,int r ,int p ,int sl = 0,int sr = n-1){
 
 
 // QUERY for kth less number in a range
-
+// [ TESTED IN SPOJ -MKTHNUM , COT]
 // int query(int p1,int p2,int k,int l = 0,int r =n-1){
 //     if(l == r)return l;
 //     int cont = st[L[p1]]-st[L[p2]];

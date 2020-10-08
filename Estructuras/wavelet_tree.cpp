@@ -3,7 +3,13 @@ using namespace std;
 #define __ ios_base::sync_with_stdio(false);cin.tie(NULL);
 // Complexity O(n log(max_element))
 // Also use coordinates compression if the elements are to big because the complexity is nlog(max_element)
-
+// TESTED IN:
+// [Codeforces 220E - Little Elephant and Inversions]
+// [Codeforces 459D - Pashmak and Parmida's problem]
+// [Codeforces 840D - Destiny]
+// [Codeforces 61E - Enemy is weak]
+// [RPC 2020/08 problem B]
+// [SPOJ MKTHNUM]
 typedef vector<int>::iterator it;
 struct wavelet{
     vector<vector<int>> mapLeft;
@@ -46,7 +52,6 @@ struct wavelet{
     // return the kth smallest element in a range [i,j]
     // k=1 is the smallest
     // 0 indexed this is indexes are in [0,n-1]
-    // [Tested in RPC 2020/08 problem B and SPOJ MKTHNUM]
     int kth(int i,int j,int k){
         j++;
         int l = 0,r = mx-1,u = 1,li,lj;
@@ -81,7 +86,6 @@ struct wavelet{
 
 
     // Return the minimun number that their frecuence in the range [i,j] is at least k
-    // tested in [cdeforces 840D ]
     // complexity depends of k, if k is small and j-i is large maybe go up to o(n)
     // the problem tested has a k up to ((j-i)/5) and the complexity has  o(5log(n))
     int minimun_of_ocurrences(int i,int j,int k){
