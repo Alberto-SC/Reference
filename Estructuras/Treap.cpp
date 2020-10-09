@@ -1,182 +1,122 @@
-template <class T>
-struct ImplicitTreap {
-  struct Node {
-    Node *l = nullptr, *r = nullptr;  // left, right
-    T val, minim = (1 << 30), sum = 0, su = 0, ru;
-    int prior, sz = 1, rev = 0, psu = 0, pru = 0;
-    Node(T e, int p = rand()) : val(e), prior(p) {}
-  };
-  // 2
-  ImplicitTreap() {}
-  Node *root = nullptr;
-  // 13
-  // O(1)
-  void pull(Node *t) {
-    if (!t) return;
-    t->sz = 1, t->sum = t->val, t->minim = t->val;
-    if (t->l) {
-      t->sz += t->l->sz, t->sum += t->l->sum;
-      t->minim = min(t->minim, t->l->minim);
-    }
-    if (t->r) {
-      t->sz += t->r->sz, t->sum += t->r->sum;
-      t->minim = min(t->minim, t->r->minim);
-    }
-  }
-  // 5
-  void applySu(Node *t, T su) {
-    if (!t) return;
-    t->val += su, t->psu = 1, t->su += su;
-    t->sum += su * t->sz, t->minim += su;
-  }
-  // 4
-  void applyRev(Node *t) {
-    if (!t) return;
-    t->rev ^= 1, swap(t->l, t->r);
-  }
-  // 5
-  void applyRu(Node *t, T ru) {
-    if (!t) return;
-    t->val = ru, t->pru = 1, t->ru = ru;
-    t->sum = ru * t->sz, t->minim = ru;
-  }
-  // 12
-  // O(1)
-  void push(Node *t) {
-    if (!t) return;
-    if (t->psu) {
-      applySu(t->l, t->su), applySu(t->r, t->su);
-      t->psu = t->su = 0;
-    }
-    if (t->rev)
-      applyRev(t->l), applyRev(t->r), t->rev = 0;
-    if (t->pru) {
-      applyRu(t->l, t->ru), applyRu(t->r, t->ru);
-      t->pru = 0;
-    }
-  }
-  // 16
-  // O(lg(N)), first <= idx < second
-  pair<Node *, Node *> split(Node *t, int idx,
-                             int cnt = 0) {
-    if (!t) return {NULL, NULL};
-    push(t);
-    Node *left, *right;
-    int idxt = cnt + (t->l ? t->l->sz : 0);
-    if (idx < idxt)
-      tie(left, t->l) = split(t->l, idx, cnt),
-                right = t;
-    else
-      tie(t->r, right) = split(t->r, idx, idxt + 1),
-                left = t;
-    pull(t);
-    return {left, right};
-  }
-  // 11
-  // O(lg(N))
-  void insert(Node *&t, Node *v, int idxv, int cnt) {
-    int idxt = t ? cnt + (t->l ? t->l->sz : 0) : 0;
-    push(t);
-    if (!t) t = v;
-    else if (v->prior > t->prior)
-      tie(v->l, v->r) = split(t, idxv, cnt), t = v;
-    else if (idxv < idxt) insert(t->l, v, idxv, cnt);
-    else insert(t->r, v, idxv, idxt + 1);
-    pull(t);
-  }
-  // 4
-  // O(lg(N)), insert element in i-th position
-  void insert(T e, int i) {
-    insert(root, new Node(e), i - 1, 0);
-  }
-  // 11
-  // O(lg(N)) asumes a.indexes < b.indexes
-  Node *merge(Node *a, Node *b) {
-    push(a), push(b);
-    Node *ans;
-    if (!a || !b) ans = a ? a : b;
-    else if (a->prior > b->prior)
-      a->r = merge(a->r, b), ans = a;
-    else b->l = merge(a, b->l), ans = b;
-    pull(ans);
-    return ans;
-  }
-  // 10
-  // O(lg(N))
-  void erase(Node *&t, int idx, int cnt = 0) {
-    if (!t) return;
-    push(t);
-    int idxt = cnt + (t->l ? t->l->sz : 0);
-    if (idxt == idx) t = merge(t->l, t->r);
-    else if (idx < idxt) erase(t->l, idx, cnt);
-    else erase(t->r, idx, idxt + 1);
-    pull(t);
-  }
-  // 2
-  // O(lg(N)), erase element at i-th position
-  void erase(int i) { erase(root, i); }
-  // 4
-  // O(lg(N))
-  void push_back(T e) {
-    root = merge(root, new Node(e));
-  }
-  // 7
-  // O(lg(N))
-  void op(int l, int r, function<void(Node *&)> f) {
-    Node *a, *b, *c;
-    tie(a, b) = split(root, l - 1);
-    tie(b, c) = split(b, r - l);
-    f(b), root = merge(a, merge(b, c));
-  }
-  // 4
-  // O(lg(N)), reverses [l, ..., r]
-  void reverse(int l, int r) {
-    op(l, r, [&](Node *&t) { applyRev(t); });
-  }
-  // 9
-  // O(lg(N)), rotates [l, ..., r] k times
-  void rotate(int l, int r, int k) {
-    op(l, r, [&](Node *&t) {
-      Node *l, *r;
-      k %= t->sz, tie(l, r) = split(t, t->sz - k - 1);
-      t = merge(r, l);
-    });
-  }
-  // 5
-  // O(lg(N)), adds val to [l, ..., r]
-  void add(int l, int r, T val) {
-    op(l, r,
-       [&](Node *&t) { applySu(t, val); });
-  }
-  // 5
-  // O(lg(N)), sets val to [l, ..., r]
-  void replace(int l, int r, T val) {
-    op(l, r,
-       [&](Node *&t) { applyRu(t, val); });
-  }
-  // 6
-  // O(lg(N)), minimum in [l, ..., r]
-  T getMin(int l, int r) {
-    T ans;
-    op(l, r, [&](Node *&t) { ans = t->minim; });
-    return ans;
-  }
-  // 6
-  // O(lg(N)), sum in [l, ..., r]
-  T getSum(int l, int r) {
-    T ans;
-    op(l, r, [&](Node *&t) { ans = t->sum; });
-    return ans;
-  }
-  // 8
-  // O(N)
-  void print(Node *t) {
-    if (!t) return;
-    push(t);
-    print(t->l);
-    cout << t->val << " ";
-    print(t->r);
-  }
-  // 2
-  void print() { print(root), cout << endl; }
+#include <bits/stdc++.h>
+using namespace std;
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+uniform_int_distribution<> dis(numeric_limits<int>::min()+10, numeric_limits<int>::max()-10);
+
+
+// TESTED IN [SPOJ - ADACROP]
+struct Treap{
+    Treap *l = NULL,*r = NULL;
+    int key,p,sz = 1;
+    Treap(int key,int p =rand()):key(key),p(p){}
 };
+Treap *root = NULL;
+
+void update(Treap *T){
+    if(!T)return;
+    T->sz = 1;
+    if(T->l)T->sz+=T->l->sz;
+    if(T->r)T->sz+=T->r->sz;
+}
+
+pair<Treap*,Treap*> split(Treap *T,int x){
+    Treap *l,*r;
+    if(!T)
+        return {NULL,NULL};
+    if(x<T->key)
+        tie(l,T->l) = split(T->l,x),r = T;
+    else 
+        tie(T->r,r) = split(T->r,x),l = T;
+    update(T);
+    return {l,r};
+}
+
+Treap* merge(Treap *a,Treap *b){
+    Treap *T;
+    if(!a || !b)T = a?a:b;
+    else if(a->p >b->p)a->r = merge(a->r,b),T = a;
+    else b->l = merge(a,b->l),T = b;
+    update(T);
+    return T;
+}
+
+
+void insert(Treap *&T,Treap *v){
+    // cout<<"HI"<<endl;
+    if(!T)
+        T = v;
+    else if(v->p>T->p)
+        tie(v->l,v->r) = split(T,v->key),T=v;
+    else 
+        insert(v->key<T->key?T->l:T->r,v);
+    update(T);
+}
+
+void insert(int x){
+    insert(root,new Treap(x));
+}
+
+
+void erase(Treap *&T,int key){
+    if(!T)return;
+    if(T->key == key)
+        T = merge(T->l,T->r);
+    else erase((key<T->key)?T->l:T->r,key);
+    update(T);
+}
+
+void print(Treap *T){
+    if(!T)return ;
+    print(T->l);
+    cout<<"("<<T->key<<","<<T->sz<<") ";
+    print(T->r);
+    update(T);
+}
+
+int order_of_key(Treap *T,int x,int cont = 0){
+    if(!T)return cont;
+    else if(T->key == x)return T->l?T->l->sz+cont:cont;
+    else if(x<T->key)return order_of_key(T->l,x,cont);
+    else return order_of_key(T->r,x,cont+(T->l?T->l->sz+1:1));
+}
+
+
+
+Treap *unite(Treap *l,Treap *r){
+    if(!l || !r) return r?r:l;
+    if(l->p <r->p)swap(l,r);
+    Treap *lt,*rt;
+    tie(lt,rt) = split(r,l->key);
+    l->l = unite(l->l,lt);
+    l->r = unite(l->r,rt);
+    return l;
+}
+
+int main(){
+    int n;
+    cin>>n;
+    vector<int> nums(n);
+    for(auto &c:nums)cin>>c;
+    for(int i  = 0;i<n;i++)
+        insert(nums[i]);
+    
+    print(root);
+    erase(root,2);
+    cout<<endl;
+    print(root);
+    insert(8);
+    insert(2);
+    cout<<endl;
+    print(root);
+    cout<<endl;
+    erase(root,1);
+    print(root);
+    
+    cout<<endl<<order_of_key(root,9)<<endl;
+    erase(root,8);
+    insert(3);
+    print(root);
+    cout<<endl;
+    cout<<order_of_key(root,3)<<endl;
+    return 0;
+}

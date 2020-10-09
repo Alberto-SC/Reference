@@ -116,6 +116,7 @@ Treap *merge(Treap *a,Treap *b){
     else if(a->p > b->p)
         a->r = merge(a->r,b),T = a;
     else b->l = merge(a,b->l),T = b;
+    update(T);
     return T;
 }
 
@@ -198,9 +199,9 @@ int main(){
     cin>>n;
     vector<int> nums(n);
     for(auto &c:nums)cin>>c;
-    // TEST FUNCTIONS 
     for(int i = 0;i<n;i++)
         insert(nums[i],i);
+    // TEST FUNCTIONS 
     cout<<"Original Array"<<endl;
     print(root);
     cout<<endl;
@@ -255,5 +256,8 @@ int main(){
     cout<<get_min(0,4)<<endl;
     cout<<"GET sum of whole array"<<endl;   
     cout<<get_sum(0,4)<<endl;
+    cout<<"ERASE second element"<<endl;
+    erase(root,1);
+    print(root);
     return 0;
 }
