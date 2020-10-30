@@ -298,6 +298,20 @@ lli countDivisors(lli n) {
 	else return ans * 4; // third case with p != q
 } 
 
+// arr is a primeFact of n with a pair <prime,exponent>
+void generateDivisors(int curIndex, int curDivisor, vector<pair<int,int>>& arr){  
+    if (curIndex == arr.size()) { 
+        cout << curDivisor << ' '; 
+        return; 
+    } 
+  
+    for (int i = 0; i <= arr[curIndex].y; ++i) { 
+        generateDivisors(curIndex + 1, curDivisor, arr); 
+        curDivisor *= arr[curIndex].x; 
+    } 
+} 
+
+
 //_________Prime Factors__________//
 map<lli,lli> fact;
 void trial_division4(lli n) {

@@ -5,7 +5,7 @@ struct Edge{
 vector<vector<int>> adj, cost, capacity;
 
 const int INF = 1e9;
-
+//  O(n^3 m).
 void shortest_paths(int n, int v0, vector<int>& d, vector<int>& p) {
     d.assign(n, INF);
     d[v0] = 0;
@@ -23,7 +23,7 @@ void shortest_paths(int n, int v0, vector<int>& d, vector<int>& p) {
                 p[v] = u;
                 if (!inq[v]) {
                     inq[v] = true;
-                    q.push(v);
+                    q.push(v); 
                 }
             }
         }
@@ -48,7 +48,7 @@ int min_cost_flow(int N, vector<Edge> edges, int K, int s, int t) {
     vector<int> d, p;
     while (flow < K) {
         shortest_paths(N, s, d, p);
-        // cout<<"Shortest Path "<<d[t]<<endl;
+        // cout<<"Shortest Pat  h "<<d[t]<<endl;
         if (d[t] == INF)
             break;
         // find max flow on that path
