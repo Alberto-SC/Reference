@@ -1,0 +1,441 @@
+% This file contains LaTeX macros for RefPkg
+% License: CC0
+\ProvidesPackage{RFpkg}
+
+\usepackage[utf8]{inputenc}             % Encoding UTF-8
+\usepackage{listings}                   % Source code listings
+\usepackage{framed}                     % Source code listings
+\usepackage[a4paper,landscape,hmargin={0.3cm,0.4cm},vmargin={1.5cm,0.4cm}]{geometry}
+\usepackage{multicol}                   % Split page in multiple columns
+\usepackage{fancyhdr}                   % Fancy headers
+\usepackage{amsbsy, amssymb, amsmath}   % Enable math symbols
+\usepackage{tocloft}                    % Custom Table of Contents
+\usepackage{titletoc}                   % Design control over Table of Contents
+\usepackage{ifthen}                     % To enable some conditional programming in LaTeX
+\usepackage{courier}                    % To get bold typewriter typeface
+\usepackage{graphicx}                   % To rotate page numbers
+\usepackage{fix-cm}                     % Large font sizes
+\usepackage{paralist}                   % For compact enumerations
+\usepackage[inline]{enumitem}           % For horizontal lists
+\usepackage[parfill]{parskip}           % For compact enumerations
+\usepackage[dvipsnames]{xcolor}
+\usepackage[normalem]{ulem}
+\usepackage[hidelinks]{hyperref}        % For clickable table of contents
+\usepackage{minted}                     % For listings
+\usepackage{xparse}                     % For \seq command
+\usepackage{fontspec}
+\usepackage{commath}
+\usepackage{lipsum,parallel, framed}
+\usepackage[titletoc]{appendix}
+\usepackage{mathtools}
+\usepackage{xcolor}
+\usepackage{tabularx}           % Intelligent column widths
+\usepackage{tabulary}
+\usepackage{paracol}
+\usepackage[usestackEOL]{stackengine}[2013-10-15]
+
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+
+
+% ------------------------- MATH and style commands ------------------------
+% This command ignores the optional argument for itemize and enumerate lists
+\newcommand{\inlineitem}[1][]{%
+\ifnum\enit@type=\tw@
+    {\descriptionlabel{#1}}
+  \hspace{\labelsep}%
+\else
+  \ifnum\enit@type=\z@
+       \refstepcounter{\@listctr}\fi
+    \quad\@itemlabel\hspace{\labelsep}%
+\fi}
+\parindent=0pt
+\def\x{\hspace{3ex}}    %BETWEEN TWO 1-DIGIT NUMBERS
+\def\y{\hspace{2.45ex}}  %BETWEEN 1 AND 2 DIGIT NUMBERS
+\def\z{\hspace{1.9ex}}   
+
+
+\newcommand{\bigo}[1] {\ensuremath{\mathcal{O} \left( #1 \right)}}
+
+\newcommand{\genstirlingI}[3]{%
+	\genfrac{[}{]}{0pt}{#1}{#2}{#3}%
+}
+\newcommand{\genstirlingII}[3]{%
+	\genfrac{\{}{\}}{0pt}{#1}{#2}{#3}%
+}
+\newcommand{\genEuler}[3]{%
+	\genfrac{<}{>}{0pt}{#1}{#2}{#3}%
+}
+\newcommand{\stirlingI}[2]{\genstirlingI{}{#1}{#2}}
+\newcommand{\stirlingII}[2]{\genstirlingII{}{#1}{#2}}
+\newcommand{\euler}[2]{\genEuler{}{#1}{#2}}
+\newcommand{\ve}[1]{\overrightarrow{#1}}
+% \newcommand\norm[1]{\lVert#1\rVert}
+\newcommand\normx[1]{\Vert#1\Vert}
+\newcommand{\hr}{\centerline{\rule{3.5in}{1pt}}}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\renewcommand*{\tilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}
+% Proper carets and tildes
+\newcommand*{\caret}{%
+  \begingroup
+    \fontencoding{T1}%
+    \fontfamily{pcr}% Courier
+    \selectfont
+    \string^%
+  \endgroup
+}
+
+\newcommand\LR[2]{\begin{Parallel}[v]{0.35\textwidth}{0.55\textwidth}
+    \ParallelLText{#1}%
+    \ParallelRText{%
+                                      \sffamily #2}%
+                                     \ParallelPar
+                                     \vspace{\baselineskip}%
+                                     \end{Parallel}
+                                     }
+% Like \needspace, except with flush bottoms.
+\newcommand{\myneedspace}[1]{%
+  \begingroup
+    \setlength{\dimen@}{#1}%
+    \vskip\dimen@
+    \penalty 9999%
+    \vskip -\dimen@
+    \vskip\z@skip
+  \endgroup
+}
+\newcommand{\hardcolumnbreak}{\vfill\null\columnbreak}
+
+
+% --------------- DOCUMENT CONFIGURATION/COMMANDS ----------------
+% Styles for local toc
+\titlecontents{localsection}[1.5em]{\small}{}
+	{\small}{\titlerule*[0.8em]{.}\contentspage}
+\titlecontents{localsubsection}[3.0em]{\small}{}
+	{\small}{\titlerule*[0.8em]{.}\contentspage}
+	
+% Styles for main toc
+\renewcommand{\chaptermark}[1]{\markboth{\emph{ #1}}{}}
+\renewcommand{\cftbeforetoctitleskip}{-45pt}
+\renewcommand{\cftaftertoctitleskip}{10pt}
+\renewcommand{\cftbeforechapskip}{11pt}
+\renewcommand\cftchapfont{\large\bfseries}
+\renewcommand{\cftdotsep}{4.5}
+
+
+\newcommand{\subtitle}[1]{
+	\def\@subtitle{#1}
+}
+\newcommand{\team}[2]{
+	\def\@teamname{#1}
+	\def\@teammembers{#2}
+}
+\newcommand{\contest}[2]{
+	\def\@contestname{#1}
+	\def\@contestdate{#2}
+}
+\newcommand{\university}[3]{
+	\def\@unilong{#1}
+	\def\@unishort{#2}
+
+	\ifx&#3&
+
+	\else
+		\def\@unilogo{#3}
+	\fi
+}
+\def\today{\number\year-\ifthenelse{\number\month<10}{0}{}\number\month-\ifthenelse{\number\day<10}{0}{}\number\day} % Defines \today as YYYY-MM-DD
+
+
+
+% Default config 
+\subtitle{{\tiny new} ESCOM}
+\title{Algorithm Competition Template Library}
+\newcommand{\PDFColor}{0}
+\def\@builddir{build}
+
+\newcommand{\maketeampage}{
+	\begin{center}
+		\strut % Magic
+		\vspace{3cm}\\
+		\ifdefined\@unilogo
+			\includegraphics[width=3cm]{\@unilogo}\\
+		\fi
+		{\fontsize{25}{30}\selectfont \@unilong\\}
+		{\fontsize{60}{60}\selectfont \@teamname\\}
+		\vspace{0.5cm}
+		{\huge \@teammembers\\}
+		\vfill
+		{\fontsize{21}{25}\selectfont \@contestname}\\
+		\vspace{0.5cm}
+		{\huge \@contestdate}\\
+		\vspace{1cm}
+	\end{center}
+	\clearpage
+}
+
+
+\renewcommand{\maketitle}[2]{
+	\begin{center}
+		{\Huge \@title}\\
+		{\huge \@subtitle{} version #2}\\[0.1cm]
+		{\Huge \textsc{#1}}
+	\end{center}
+}
+
+\renewcommand\chapter{
+	\global\@topnum\z@
+	\secdef
+	\@chapter
+	\@schapter
+}
+
+
+\def\@makechapterhead#1{
+	\parindent \z@ \raggedright \normalfont
+		\interlinepenalty\@M
+	{\underline{\huge \bfseries #1} }
+	\ifnum \c@secnumdepth >\m@ne
+		{\huge\bfseries (\thechapter) \par\nobreak }
+	\fi
+	\startcontents[chapters]
+}
+
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                   {-0.5ex \@plus -1ex \@minus -.2ex}%
+                                   {.4ex}%
+                                   {\normalfont\LARGE\bfseries\bigskip}}
+
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}
+	{1ex\@plus -1ex \@minus -.3ex}
+	{.2ex}
+	{\normalfont\large\bfseries\bigskip}}
+
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}
+	{1ex\@plus -1ex \@minus -.3ex}
+	{1ex \@plus .2ex}
+	{\normalfont\large\bfseries\bigskip}}
+
+% ------------------------- CODE LISTINGS ------------------------
+
+\usemintedstyle{autum}
+\pagecolor[HTML]{ffffff} %white
+\definecolor{bg}{HTML}{ffffff}
+
+\ExplSyntaxOn
+\NewDocumentCommand{\mintedpath}{m}
+ {
+  \seq_gset_split:Nnn \g_paulie_mintedpath_seq { } { #1 }
+  \seq_gput_left:Nn \g_paulie_mintedpath_seq { }
+ }
+
+\seq_new:N \g_paulie_mintedpath_seq
+
+\NewDocumentCommand{\pathinputminted}{O{}mm}
+ {
+  \seq_map_inline:Nn \g_paulie_mintedpath_seq
+   {
+    \file_if_exist:nT { ##1 #3 }
+     {
+      \inputminted[#1]{#2}{##1 #3}
+      \seq_map_break:
+     }
+   }
+ }
+\ExplSyntaxOff
+
+
+\definecolor{mygreen}{HTML}{C3E88D}
+\definecolor{mygray}{HTML}{676E95}
+\definecolor{myred}{HTML}{FB467B}
+\definecolor{myred2}{HTML}{E53065}
+\definecolor{mypurple}{HTML}{CB6CFE}
+\definecolor{mypurple2}{HTML}{FFCB6B}
+\definecolor{mypurple3}{HTML}{7214A5}
+\definecolor{myblue}{HTML}{56D6D6}
+\definecolor{myblue2}{HTML}{6796E6}
+\definecolor{myblue3}{HTML}{154BA7}
+\definecolor{myyellow}{HTML}{FFCC00}
+\definecolor{myorange}{HTML}{F78C6C}
+\definecolor{myblack}{HTML}{212337}
+\definecolor{mywhite}{HTML}{CED5E5}
+
+% Configure source code listings
+
+\newcommand{\enablecolors}{
+	\lstset{basicstyle=\mdseries\ttfamily\color{myred2}}
+	\lstset{commentstyle=\itshape\mdseries\color{mygray}}
+	\lstset{keywordstyle=\mdseries\color{mypurple3}}
+	\lstset{identifierstyle=\mdseries\color{myblack}}
+	\lstset{stringstyle=\mdseries\color{myorange}}
+	\lstset{ndkeywordstyle=\mdseries\color{myblue3}}
+}
+
+\newcommand{\enableDarkMode}{
+	\pagecolor[rgb]{0.1568,0.1607,0.2392} %black
+	\definecolor{bg}{HTML}{212337}
+	\color[rgb]{0.9490,0.949,0.9607} %grey
+	\lstset{identifierstyle=\mdseries\color{mywhite}}
+}
+% \setmonofont{Fira Code}[
+%     Contextuals = Alternate,
+% 	Scale=0.7
+% ]
+\setmonofont{CascadiaCode}[
+	Extension= .ttf,
+	% UprightFont = *-Regular,
+    Contextuals = Alternate,
+	Scale=0.7
+]
+
+
+	% \lstset{morecomment=[s][\color{blue}]{/*+}{*/},morecomment=[s][\color{red}]{/*-}{*/}}
+	
+\lstset{language=C++}
+\lstset{morendkeywords={push_back,pop_back,back,insert,delete,stable_partition,reserve,min,max,begin,
+end,lower_bound,upper_bound,sort,reverse},keywordstyle=\color{olive}}
+\lstset{deletedirectives={line}}
+\lstset{frame=t}
+\lstset{xleftmargin = 0pt}
+\lstset{tabsize=2}
+\lstset{showstringspaces=false}
+\lstset{breaklines=true}
+\lstset{columns = flexible}
+\lstset{postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},}
+\lstset{commentstyle=\normalfont\itshape}
+\lstset{literate={^}{\caret}{1}}
+% \lstset{literate={^}{\caret}{1}  {\{}{\nicelbrace}{1} {\}}{\nicerbrace}{1}}
+\lstset{moredelim = [s][\color{ForestGreen}]{/*+}{*/},moredelim = [s][\color{magenta}]{/*-}{*/}}
+\lstset{emptylines=*1}
+\lstset{inputencoding=utf8}
+\lstset{aboveskip=3pt}
+\lstset{belowskip=2pt}
+\lstset{escapeinside={\$\$}{\$\$}}
+
+\lstdefinelanguage{raw}{} % Raw language, no keywords.
+
+\setlength{\columnseprule}{0.1pt} % Multicol separation line with
+\setlength{\columnsep}{10pt} % Multicol separation margin
+
+
+
+
+% -------------------------IMPORTS AND FOR PYTHON USE COMMANDS -----------------------------------
+
+% Directory where the content is located
+
+\newcommand{\kactlcontentdir}[1]{
+	\def\@kactlbasedir{#1}
+	\def\@kactldir{#1}
+}
+\kactlcontentdir{../}
+
+\newcommand{\kactlref}[1]{
+	\section{\texttt{#1}\hspace{0.2em}}
+}
+
+\newcommand{\kactlimport}[2][]{ % Using empty default parameter
+	\leftcaption{}\rightcaption{}
+	\setboolean{hasdescription}{false}
+	\setboolean{hasconsiderations}{false}
+	\setboolean{hasusage}{false}
+	\setboolean{hastime}{false}
+	\setboolean{hasmemory}{false}
+	\setboolean{hasleftcaption}{false}
+	\myneedspace{1\baselineskip}
+	\penalty-100
+	\medskip
+	\immediate\write18{rm -f \@builddir/Reference.tmp} % Don't include old Reference.tmp on failure.
+	\immediate\write18{python preprocessor.py -i "\@kactldir/#2" -o \@builddir/Reference.tmp #1}
+	\immediate\input{\@builddir/Reference.tmp}
+}
+
+\newcommand{\import}[1]{
+	\input{"\@kactldir/#1"}
+}
+
+\newcommand{\kactlchapter}[1]{
+	\def\@kactldir{\@kactlbasedir#1}
+	\input{"\@kactldir/chapter.tex"}
+	\def\@kactldir{\@kactlbasedir}
+}
+
+\newcommand{\kactlerror}[1]{
+	\PackageError{kactlpkg}{#1}{}
+}
+
+\newcommand{\kactlwarning}[1]{
+	\PackageWarning{kactlpkg}{#1}
+}
+
+\newboolean{hasleftcaption}
+\newcommand{\leftcaption}[1]{
+	\def\@leftcaption{#1}
+	\setboolean{hasleftcaption}{true}
+}
+\leftcaption{}
+\setboolean{hasleftcaption}{false}
+
+\newcommand{\rightcaption}[1]{
+	\def\@rightcaption{#1}
+}
+\rightcaption{}
+
+\newboolean{hasdescription}
+\newcommand{\defdescription}[1]{
+	\def\@defdescription{#1}
+	\setboolean{hasdescription}{true}
+}
+\defdescription{}
+\setboolean{hasdescription}{false}
+
+\newboolean{hasconsiderations}
+\newcommand{\defconsiderations}[1]{
+	\def\@defconsiderations{#1}
+	\setboolean{hasconsiderations}{true}
+	}
+\defconsiderations{}
+\setboolean{hasconsiderations}{false}
+
+\newboolean{hasusage}
+\newcommand{\defusage}[1]{
+	\def\@defusage{\texttt{#1}}
+	\setboolean{hasusage}{true}
+}
+\defusage{}
+\setboolean{hasusage}{false}
+
+\newboolean{hastime}
+\newcommand{\deftime}[1]{
+	\def\@deftime{#1}
+	\setboolean{hastime}{true}
+}
+\deftime{}
+\setboolean{hastime}{false}
+
+\newboolean{hasmemory}
+\newcommand{\defmemory}[1]{
+	\def\@defmemory{#1}
+	\setboolean{hasmemory}{true}
+}
+\defmemory{}
+\setboolean{hasmemory}{false}
+
+
+\newcommand{\codeheader}[2]{
+	{\par\noindent\footnotesize{\textbf{#1:} #2\par}}
+}
+
+\long\def\@makecaption#1#2{
+	% \vspace{-3pt}
+	\medskip
+	\ifthenelse{\boolean{hasdescription}}{\codeheader{Description}{\@defdescription}}{}
+	\ifthenelse{\boolean{hasconsiderations}}{\codeheader{Considerations}{\@defconsiderations}}{}
+	\ifthenelse{\boolean{hasusage}}{\codeheader{Usage}{\@defusage}}{}
+	\ifthenelse{\boolean{hasmemory}}{\codeheader{Memory}{\@defmemory}}{}
+	\ifthenelse{\boolean{hastime}}{\codeheader{Time}{\@deftime}}{}
+	\ifthenelse{\boolean{hasleftcaption}}{\vspace{0pt}}{\vspace{-5pt}}
+	\small
+	\texttt{\@leftcaption} \hfill \@rightcaption
+}
+

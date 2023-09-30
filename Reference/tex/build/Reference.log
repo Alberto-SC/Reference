@@ -1,0 +1,4698 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2023.9.22)  29 SEP 2023 19:22
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Reference.tex
+(./Reference.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-05-07>
+(/usr/share/texlive/texmf-dist/tex/latex/extsizes/extreport.cls
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen138
+)
+\c@part=\count175
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\c@figure=\count182
+\c@table=\count183
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
+) (./RFpkg.sty
+Package: RFpkg 
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\lst@mode=\count184
+\lst@gtempboxa=\box47
+\lst@token=\toks18
+\lst@length=\count185
+\lst@currlwidth=\dimen140
+\lst@column=\count186
+\lst@pos=\count187
+\lst@lostspace=\dimen141
+\lst@width=\dimen142
+\lst@newlines=\count188
+\lst@lineno=\count189
+\lst@maxwidth=\dimen143
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count190
+\lst@skipnumbers=\count191
+\lst@framebox=\box48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip49
+\fb@frw=\dimen144
+\fb@frh=\dimen145
+\FrameRule=\dimen146
+\FrameSep=\dimen147
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen148
+\Gm@wd@mp=\dimen149
+\Gm@odd@mp=\dimen150
+\Gm@even@mp=\dimen151
+\Gm@layoutwidth=\dimen152
+\Gm@layoutheight=\dimen153
+\Gm@layouthoffset=\dimen154
+\Gm@layoutvoffset=\dimen155
+\Gm@dimlist=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count195
+\mult@box=\box49
+\multicol@leftmargin=\dimen156
+\c@unbalance=\count196
+\c@collectmore=\count197
+\doublecol@number=\count198
+\multicoltolerance=\count199
+\multicolpretolerance=\count266
+\full@width=\dimen157
+\page@free=\dimen158
+\premulticols=\dimen159
+\postmulticols=\dimen160
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box50
+\last@line=\box51
+\maxbalancingoverflow=\dimen161
+\mult@rightbox=\box52
+\mult@grightbox=\box53
+\mult@gfirstbox=\box54
+\mult@firstbox=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\c@minrows=\count267
+\c@columnbadness=\count268
+\c@finalcolumnbadness=\count269
+\last@try=\dimen162
+\multicolovershoot=\dimen163
+\multicolundershoot=\dimen164
+\mult@nat@firstbox=\box93
+\colbreak@box=\box94
+\mc@col@check@num=\count270
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen165
+)
+\pmbraise@=\dimen166
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip61
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count271
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count272
+\leftroot@=\count273
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count274
+\DOTSCASE@=\count275
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box95
+\strutbox@=\box96
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count276
+\c@MaxMatrixCols=\count277
+\dotsspace@=\muskip16
+\c@parentequation=\count278
+\dspbrk@lvl=\count279
+\tag@help=\toks21
+\row@=\count280
+\column@=\count281
+\maxfields@=\count282
+\andhelp@=\toks22
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks23
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip64
+\cftbeforetoctitleskip=\skip65
+\cftaftertoctitleskip=\skip66
+\cftbeforepartskip=\skip67
+\cftpartnumwidth=\skip68
+\cftpartindent=\skip69
+\cftbeforechapskip=\skip70
+\cftchapindent=\skip71
+\cftchapnumwidth=\skip72
+\cftbeforesecskip=\skip73
+\cftsecindent=\skip74
+\cftsecnumwidth=\skip75
+\cftbeforesubsecskip=\skip76
+\cftsubsecindent=\skip77
+\cftsubsecnumwidth=\skip78
+\cftbeforesubsubsecskip=\skip79
+\cftsubsubsecindent=\skip80
+\cftsubsubsecnumwidth=\skip81
+\cftbeforeparaskip=\skip82
+\cftparaindent=\skip83
+\cftparanumwidth=\skip84
+\cftbeforesubparaskip=\skip85
+\cftsubparaindent=\skip86
+\cftsubparanumwidth=\skip87
+\cftbeforeloftitleskip=\skip88
+\cftafterloftitleskip=\skip89
+\cftbeforefigskip=\skip90
+\cftfigindent=\skip91
+\cftfignumwidth=\skip92
+\c@lofdepth=\count283
+\c@lotdepth=\count284
+\cftbeforelottitleskip=\skip93
+\cftafterlottitleskip=\skip94
+\cftbeforetabskip=\skip95
+\cfttabindent=\skip96
+\cfttabnumwidth=\skip97
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2019/10/16 v2.13 TOC entries
+\ttl@leftsep=\dimen174
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip98
+\plpartopsep=\skip99
+\plitemsep=\skip100
+\plparsep=\skip101
+\pl@lab=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip102
+\enit@outerparindent=\dimen177
+\enit@toks=\toks26
+\enit@inbox=\box97
+\enit@count@id=\count285
+\enitdp@description=\count286
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box98
+\UL@hyphenbox=\box99
+\UL@skip=\skip103
+\UL@hook=\toks27
+\UL@height=\dimen178
+\UL@pe=\count288
+\UL@pixel=\dimen179
+\ULC@box=\box100
+Package: ulem 2019/11/18
+\ULdepth=\dimen180
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen181
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count291
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count292
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen182
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count293
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box101
+\c@Hy@AnnotLevel=\count297
+\HyField@AnnotCount=\count298
+\Fld@listcount=\count299
+\c@bookmark@seq@number=\count300
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count301
+\FV@InFile=\read2
+\FV@TabBox=\box102
+\c@FancyVerbLine=\count302
+\FV@StepNumber=\count303
+\FV@OutFile=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+\linenopenalty=\count304
+\output=\toks28
+\linenoprevgraf=\count305
+\linenumbersep=\dimen185
+\linenumberwidth=\dimen186
+\c@linenumber=\count306
+\c@pagewiselinenumber=\count307
+\c@LN@truepage=\count308
+\c@internallinenumber=\count309
+\c@internallinenumbers=\count310
+\quotelinenumbersep=\dimen187
+\bframerule=\dimen188
+\bframesep=\dimen189
+\bframebox=\box103
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count311
+\c@FV@TrueTabCounter=\count312
+\FV@TabBox@Group=\box104
+\FV@TmpLength=\skip105
+\c@FV@HighlightLinesStart=\count313
+\c@FV@HighlightLinesStop=\count314
+\FV@LoopCount=\count315
+\FV@NCharsBox=\box105
+\FV@BreakIndent=\dimen190
+\FV@BreakIndentNChars=\count316
+\FV@BreakSymbolSepLeft=\dimen191
+\FV@BreakSymbolSepLeftNChars=\count317
+\FV@BreakSymbolSepRight=\dimen192
+\FV@BreakSymbolSepRightNChars=\count318
+\FV@BreakSymbolIndentLeft=\dimen193
+\FV@BreakSymbolIndentLeftNChars=\count319
+\FV@BreakSymbolIndentRight=\dimen194
+\FV@BreakSymbolIndentRightNChars=\count320
+\c@FancyVerbLineBreakLast=\count321
+\FV@LineBox=\box106
+\FV@LineIndentBox=\box107
+\FV@LineWidth=\dimen195
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count322
+\calc@Bcount=\count323
+\calc@Adimen=\dimen196
+\calc@Bdimen=\dimen197
+\calc@Askip=\skip106
+\calc@Bskip=\skip107
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count324
+\calc@Cskip=\skip108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "Reference.w18")...executed.
+
+ (./Reference.w18)
+runsystem(rm -- "Reference.w18")...executed.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count325
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+\decimalpart=\count326
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count327
+\float@exts=\toks29
+\float@box=\box108
+\@float@everytoks=\toks30
+\@floatcapt=\box109
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box110
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count328
+\c@minted@pygmentizecounter=\count329
+\@float@every@listing=\toks31
+\c@listing=\count330
+)
+runsystem(mkdir -p _minted-Reference)...executed.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-05-07 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count331
+\l__color_backend_stack_int=\count332
+\g__color_backend_stack_int=\count333
+\g__graphics_track_int=\count334
+\l__pdf_internal_box=\box111
+\g__pdf_backend_object_int=\count335
+\g__pdf_backend_annotation_int=\count336
+\g__pdf_backend_link_int=\count337
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.st
+y (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+))) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count338
+\l__fontspec_language_int=\count339
+\l__fontspec_strnum_int=\count340
+\l__fontspec_tmp_int=\count341
+\l__fontspec_tmpa_int=\count342
+\l__fontspec_tmpb_int=\count343
+\l__fontspec_tmpc_int=\count344
+\l__fontspec_em_int=\count345
+\l__fontspec_emdef_int=\count346
+\l__fontspec_strong_int=\count347
+\l__fontspec_strongdef_int=\count348
+\l__fontspec_tmpa_dim=\dimen198
+\l__fontspec_tmpb_dim=\dimen199
+\l__fontspec_tmpc_dim=\dimen256
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/commath/commath.sty
+Invalid UTF-8 byte or sequence at line 6 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 9 replaced by U+FFFD.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
+))
+(/usr/share/texlive/texmf-dist/tex/latex/parallel/parallel.sty
+Package: parallel 2003/04/13, setting two texts parallel (me)
+
+`parallel': setting two texts parallel, (beta 4) 2003/04/13.
+\ParallelLWidth=\dimen257
+\ParallelRWidth=\dimen258
+\ParallelTextWidth=\dimen259
+\ParallelLeftMargin=\dimen260
+\ParallelUserMidSkip=\dimen261
+\ParallelMainMidSkip=\dimen262
+\ParallelLBox=\box112
+\ParallelRBox=\box113
+\ParallelBoxVar=\box114
+\ParallelLTok=\box115
+\ParallelRTok=\box116
+\ParallelBoolVar=\count349
+\ParallelBoolMid=\count350
+\ParallelWhichBox=\count351
+\ParallelMainMode=\count352
+\ParallelFNMode=\count353
+\ParallelLFNCounter=\count354
+\ParallelRFNCounter=\count355
+\ParallelMaxFN=\count356
+\ParallelFNNumMode=\count357
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count358
+\c@@ppsavesec=\count359
+\c@@ppsaveapp=\count360
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count361
+\l_MT_multwidth_dim=\dimen263
+\origjot=\skip109
+\l_MT_shortvdotswithinadjustabove_dim=\dimen264
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen265
+\l_MT_above_intertext_sep=\dimen266
+\l_MT_below_intertext_sep=\dimen267
+\l_MT_above_shortintertext_sep=\dimen268
+\l_MT_below_shortintertext_sep=\dimen269
+\xmathstrut@box=\box117
+\xmathstrut@dim=\dimen270
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen271
+\ar@mcellbox=\box118
+\extrarowheight=\dimen272
+\NC@list=\toks32
+\extratabsurround=\skip110
+\backup@length=\skip111
+\ar@cellbox=\box119
+)
+\TX@col@width=\dimen273
+\TX@old@table=\dimen274
+\TX@old@col=\dimen275
+\TX@target=\dimen276
+\TX@delta=\dimen277
+\TX@cols=\count362
+\TX@ftn=\toks33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+\TY@count=\count363
+\TY@linewidth=\dimen278
+\tymin=\dimen279
+\tymax=\dimen280
+\TY@tablewidth=\dimen281
+)
+(/usr/share/texlive/texmf-dist/tex/latex/paracol/paracol.sty
+Package: paracol 2018/12/31 v1.35 
+\pcol@currcol=\count364
+\pcol@nextcol=\count365
+\pcol@ncol=\count366
+\pcol@ncolleft=\count367
+\pcol@page=\count368
+\pcol@basepage=\count369
+\pcol@toppage=\count370
+\pcol@footnotebase=\count371
+\pcol@nfootnotes=\count372
+\pcol@mcid=\count373
+\pcol@prevdepth=\dimen282
+\pcol@colht=\dimen283
+\pcol@textfloatsep=\dimen284
+\pcol@lrmargin=\dimen285
+\pagerim=\dimen286
+\pcol@topskip=\skip112
+\belowfootnoteskip=\skip113
+\pcol@topfnotes=\box120
+\pcol@prespan=\box121
+\pcol@rightpage=\box122
+\pcol@colorstack@saved=\box123
+\pcol@tempboxa=\box124
+\pcol@tempboxb=\box125
+\pcol@colorins=\insert252
+\pcol@everyvbox=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/latex/stackengine/stackengine.sty
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
+ways
+
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex
+Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 50 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 52 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 96 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 104 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 105 replaced by U+FFFD.
+\loi_cnt_foreach_nest=\count374
+Invalid UTF-8 byte or sequence at line 139 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 146 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 192 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 209 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 209 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 222 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 222 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 223 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 223 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 224 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 226 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 238 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 243 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 243 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 260 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 310 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 310 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 324 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 337 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 337 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 339 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 350 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 350 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 350 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 354 replaced by U+FFFD.
+\loi_nestcnt=\count375
+Invalid UTF-8 byte or sequence at line 367 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 367 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 367 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 367 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 375 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 375 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 375 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 375 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 377 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 378 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 398 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 398 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 411 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 414 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 422 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 422 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 426 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 433 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 433 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 441 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 441 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 442 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 443 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 443 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 443 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 446 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 446 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 446 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 448 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 448 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 451 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 455 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 455 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 458 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 458 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 475 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 492 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 508 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 508 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 509 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 519 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+)
+Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@stackindex=\count376
+\@boxshift=\skip114
+\stack@tmplength=\skip115
+\temp@stkl=\skip116
+\@stackedboxwidth=\skip117
+\@addedbox=\box126
+\@anchorbox=\box127
+\stackedbox=\box128
+\@centerbox=\box129
+\c@ROWcellindex@=\count377
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen287
+\pgfutil@tempdimb=\dimen288
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box130
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks38
+))
+\pgf@x=\dimen289
+\pgf@y=\dimen290
+\pgf@xa=\dimen291
+\pgf@ya=\dimen292
+\pgf@xb=\dimen293
+\pgf@yb=\dimen294
+\pgf@xc=\dimen295
+\pgf@yc=\dimen296
+\pgf@xd=\dimen297
+\pgf@yd=\dimen298
+\w@pgf@writea=\write5
+\r@pgf@reada=\read4
+\c@pgf@counta=\count378
+\c@pgf@countb=\count379
+\c@pgf@countc=\count380
+\c@pgf@countd=\count381
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+\pgf@sys@id@count=\count382
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)
+\pgfsys@objnum=\count383
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count384
+\pgfsyssoftpath@bigbuffer@items=\count385
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen299
+\pgfmath@count=\count386
+\pgfmath@box=\box131
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count387
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen300
+\pgf@picmaxx=\dimen301
+\pgf@picminy=\dimen302
+\pgf@picmaxy=\dimen303
+\pgf@pathminx=\dimen304
+\pgf@pathmaxx=\dimen305
+\pgf@pathminy=\dimen306
+\pgf@pathmaxy=\dimen307
+\pgf@xx=\dimen308
+\pgf@xy=\dimen309
+\pgf@yx=\dimen310
+\pgf@yy=\dimen311
+\pgf@zx=\dimen312
+\pgf@zy=\dimen313
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen314
+\pgf@path@lasty=\dimen315
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen316
+\pgf@shorten@start@additional=\dimen317
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box132
+\pgf@hbox=\box133
+\pgf@layerbox@main=\box134
+\pgf@picture@serial@count=\count388
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen318
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen319
+\pgf@pt@y=\dimen320
+\pgf@pt@temp=\dimen321
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen322
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen323
+\pgf@sys@shading@range@num=\count389
+\pgf@shadingcount=\count390
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box135
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box136
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen324
+\pgf@nodesepend=\dimen325
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen326
+\pgffor@skip=\dimen327
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count391
+\pgfplotmarksize=\dimen328
+)
+\tikz@lastx=\dimen329
+\tikz@lasty=\dimen330
+\tikz@lastxsaved=\dimen331
+\tikz@lastysaved=\dimen332
+\tikz@lastmovetox=\dimen333
+\tikz@lastmovetoy=\dimen334
+\tikzleveldistance=\dimen335
+\tikzsiblingdistance=\dimen336
+\tikz@figbox=\box137
+\tikz@figbox@bg=\box138
+\tikz@tempbox=\box139
+\tikz@tempbox@bg=\box140
+\tikztreelevel=\count392
+\tikznumberofchildren=\count393
+\tikznumberofcurrentchild=\count394
+\tikz@fig@count=\count395
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count396
+\pgfmatrixcurrentcolumn=\count397
+\pgf@matrix@numberofcolumns=\count398
+)
+\tikz@expandcount=\count399
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+
+Package fontspec Info: Font family 'CascadiaCode(0)' created for font
+(fontspec)             'CascadiaCode' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space,Extension=
+(fontspec)             .ttf,Contextuals = Alternate,Scale=0.7].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.7]"[CascadiaCode.ttf]/OT:script=latn;language=df
+lt;+calt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+))
+runsystem(which pygmentize && touch Reference.aex)...executed.
+
+runsystem(rm Reference.aex)...executed.
+
+
+(build//Reference.aux)
+\openout1 = `Reference.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+\c@lstlisting=\count400
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(8.5359pt, 825.13002pt, 11.38092pt)
+* v-part:(T,H,B)=(42.67912pt, 543.44783pt, 11.38092pt)
+* \paperwidth=845.04684pt
+* \paperheight=597.50787pt
+* \textwidth=825.13002pt
+* \textheight=543.44783pt
+* \oddsidemargin=-63.73409pt
+* \evensidemargin=-63.73409pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=9.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 16.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count401
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+
+(build//Reference.out) (build//Reference.out)
+\@outlinefile=\write6
+\openout6 = `Reference.out'.
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 16.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 16.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 16.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 16.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 16.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 16.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 16.
+LaTeX Font Info:    Redeclaring math accent \check on input line 16.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 16.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 16.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 16.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 16.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 16.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 16.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 16.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 16.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 16.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 16.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 16.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 16.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/CascadiaCode(0)/m/n on input line 1
+6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 16.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 16.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 16.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/CascadiaCode(0)/b/n on input line 1
+6.
+File: ESCOM.png Graphic file (type bmp)
+<ESCOM.png>
+ [1
+
+] (build/Reference.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/CascadiaCode(0)/m/n' will be
+(Font)              scaled to size 6.29997pt on input line 2.
+ [2
+
+]
+Overfull \hbox (0.37798pt too wide) detected at line 272
+\TU/lmr/m/n/9 10.10 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 273
+\TU/lmr/m/n/9 10.11 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 274
+\TU/lmr/m/n/9 10.12 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 275
+\TU/lmr/m/n/9 10.13 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 276
+\TU/lmr/m/n/9 10.14 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 277
+\TU/lmr/m/n/9 10.15 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 278
+\TU/lmr/m/n/9 10.16 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 279
+\TU/lmr/m/n/9 10.17 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 280
+\TU/lmr/m/n/9 10.18 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 281
+\TU/lmr/m/n/9 10.19 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 282
+\TU/lmr/m/n/9 10.20 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 283
+\TU/lmr/m/n/9 10.21 
+ []
+
+
+Overfull \hbox (0.37798pt too wide) detected at line 284
+\TU/lmr/m/n/9 10.22 
+ []
+
+)
+\tf@toc=\write7
+\openout7 = `Reference.toc'.
+
+ (../contest/chapter.tex
+Chapter 1.
+\c@ttl@toc@chapters=\count402
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../contest/compliec++.sh" -o build/Referen
+ce.tmp -r)...executed.
+
+(./build/Reference.tmp
+
+LaTeX Font Warning: Font shape `TU/CascadiaCode(0)/b/n' undefined
+(Font)              using `TU/CascadiaCode(0)/m/n' instead on input line 1.
+
+LaTeX Font Info:    Font shape `TU/CascadiaCode(0)/m/n' will be
+(Font)              scaled to size 8.39996pt on input line 1.
+LaTeX Font Info:    Font shape `TU/CascadiaCode(0)/m/n' will be
+(Font)              scaled to size 5.59998pt on input line 4.
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[3])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../contest/hash.sh" -o build/Reference.tmp
+ -r)...executed.
+
+ (./build/Reference.tmp
+LaTeX Font Info:    Font shape `TU/CascadiaCode(0)/b/n' will be
+(Font)              scaled to size 8.39996pt on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../contest/largeTemplate.cpp" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: largeTemplate.cpp: No commands found, added as raw: l
+argeTemplate.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+
+LaTeX Font Warning: Font shape `TU/CascadiaCode(0)/m/it' undefined
+(Font)              using `TU/CascadiaCode(0)/m/n' instead on input line 28.
+
+LaTeX Font Info:    Font shape `TU/CascadiaCode(0)/m/it' will be
+(Font)              scaled to size 6.29997pt on input line 28.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 76
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../contest/template.cpp" -o build/Referenc
+e.tmp )...executed.
+
+
+(./build/Reference.tmp
+
+Package kactlpkg Warning: template.cpp: No commands found, added as raw: templa
+te.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../contest/template.py" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: template.py: No commands found, added as raw: templat
+e.py on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../contest/template.rs" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../contest/troubleshoot.txt" -o build/Refe
+rence.tmp -r)...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[4])) (../mathematics/chapter.tex
+Chapter 2.
+(../mathematics/math.tex
+File: ../mathematics/sphericalCoordinates.pdf Graphic file (type pdf)
+<use ../mathematics/sphericalCoordinates.pdf>
+ [5])) (../strings/chapter.tex
+Chapter 3.
+[6]
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/AhoCorasick.cpp" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+LaTeX Font Info:    Font shape `TU/CascadiaCode(0)/m/n' will be
+(Font)              scaled to size 4.89998pt on input line 16.
+LaTeX Font Info:    Font shape `TU/CascadiaCode(0)/m/n' will be
+(Font)              scaled to size 3.49998pt on input line 16.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/Hashing-codeforces.h" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Hashing-codeforces.h: Missing command, added as raw: 
+Time.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 8.
+[7])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/Hashing.h" -o build/Reference.t
+mp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Hashing.h: Missing command, added as raw: Time.  on i
+nput line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/KMP.cpp" -o build/Reference.tmp
+ )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/Manacher.cpp" -o build/Referenc
+e.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/MinRotation.cpp" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/RollingHashes.cpp" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: RollingHashes.cpp: No commands found, added as raw: R
+ollingHashes.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[8])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/SuffixArray.cpp" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[9])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/SuffixTree.cpp" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/Trie.cpp" -o build/Reference.tm
+p )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Trie.cpp: Missing command, added as raw: Time.  on in
+put line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[10])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/TrieBinary.cpp" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: TrieBinary.cpp: No commands found, added as raw: Trie
+Binary.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/Zfunc.cpp" -o build/Reference.t
+mp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[11])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/palindromicTree.cpp" -o build/R
+eference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: palindromicTree.cpp: Missing command, added as raw: T
+ime.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/positionInLexicograficOrder.cpp
+" -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[12])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/suffixAutomaton.cpp" -o build/R
+eference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../strings/trie.rs" -o build/Reference.tmp
+ )...executed.
+
+ (./build/Reference.tmp)) (../number-theory/chapter.tex
+Chapter 4.
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/CRT.h" -o build/Reference
+.tmp )...executed.
+
+(./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[13])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/CarmichaelLambda.cpp" -o 
+build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: CarmichaelLambda.cpp: Missing command, added as raw: 
+Time.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/ContinuedFractions.h" -o 
+build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/Euclidjav.h" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Euclidjav.h: Missing command, added as raw: Time.  on
+ input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/Factor.h" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) [14]
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/FastCountDivisors.cpp" -o
+ build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/FracBinarySearch.h" -o bu
+ild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/LinealDiophantine.cpp" -o
+ build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: LinealDiophantine.cpp: Missing command, added as raw:
+ Time.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[15])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/LinearSieve.py" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: LinearSieve.py: No commands found, added as raw: Line
+arSieve.py on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/ModFloorDivision.h" -o bu
+ild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/ModInverse.h" -o build/Re
+ference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: ModInverse.h: Missing command, added as raw: Time.  o
+n input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/ModLog.h" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/ModMulLL.h" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/ModPow.cpp" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: ModPow.cpp: Missing command, added as raw: Time.  on 
+input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[16])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/ModSqrt.h" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/ModSum.h" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/ModularArithmetic.h" -o b
+uild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: ModularArithmetic.h: Missing command, added as raw: T
+ime.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/NumberTheory.cpp" -o buil
+d/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: NumberTheory.cpp: No commands found, added as raw: Nu
+mberTheory.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[17] [18] [19])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/PollarRho.cpp" -o build/R
+eference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: PollarRho.cpp: No commands found, added as raw: Polla
+rRho.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[20])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/PollarRho2.cpp" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: PollarRho2.cpp: No commands found, added as raw: Poll
+arRho2.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[21])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/PrimeBasis.cpp" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: PrimeBasis.cpp: Missing command, added as raw: Time. 
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[22])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/Primes.cpp" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Primes.cpp: No commands found, added as raw: Primes.c
+pp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[23] [24] [25])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/SOSConvolutions.cpp" -o b
+uild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: SOSConvolutions.cpp: No commands found, added as raw:
+ SOSConvolutions.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[26])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/Sieves.cpp" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Sieves.cpp: Missing command, added as raw: Time.  on 
+input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/divisorSigma.cpp" -o buil
+d/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: divisorSigma.cpp: No commands found, added as raw: di
+visorSigma.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[27])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/euclid.h" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: euclid.h: Missing command, added as raw: Time.  on in
+put line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/eulerPhi.cpp" -o build/Re
+ference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: eulerPhi.cpp: No commands found, added as raw: eulerP
+hi.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/fastPrimeCount.cpp" -o bu
+ild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[28])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/fastPrimeCount2.cpp" -o b
+uild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: fastPrimeCount2.cpp: No commands found, added as raw:
+ fastPrimeCount2.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[29] [30])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/hash.cpp" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: hash.cpp: No commands found, added as raw: hash.cpp o
+n input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/isPrime.cpp" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: isPrime.cpp: No commands found, added as raw: isPrime
+.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[31])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/isPrimeFast.cpp" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: isPrimeFast.cpp: No commands found, added as raw: isP
+rimeFast.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/nthFibonacci.cpp" -o buil
+d/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: nthFibonacci.cpp: Missing command, added as raw: Time
+.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/numericMethods.cpp" -o bu
+ild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: numericMethods.cpp: No commands found, added as raw: 
+numericMethods.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[32])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/otros.cpp" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: otros.cpp: No commands found, added as raw: otros.cpp
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) [33]
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/pewds.cpp" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: pewds.cpp: No commands found, added as raw: pewds.cpp
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[34] [35] [36])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../number-theory/segmentedSieve.cpp" -o bu
+ild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: segmentedSieve.cpp: Missing command, added as raw: Ti
+me.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)) (../graph/chapter.tex
+Chapter 5.
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/2sat.cpp" -o build/Reference.tmp 
+)...executed.
+
+(./build/Reference.tmp
+
+Package kactlpkg Warning: 2sat.cpp: Missing command, added as raw: Time.  on in
+put line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[37])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/Arborescence2.cpp" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Arborescence2.cpp: No commands found, added as raw: A
+rborescence2.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/BellmanFord.h" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/CentroidDecomposition.cpp" -o bui
+ld/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[38])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/DFSMatching.h" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/DSURollback.cpp" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: DSURollback.cpp: No commands found, added as raw: DSU
+Rollback.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[39])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/DSUTree.cpp" -o build/Reference.t
+mp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: DSUTree.cpp: Missing command, added as raw: Time.  on
+ input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/Dijkstra.cpp" -o build/Reference.
+tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[40])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/Dinic.h" -o build/Reference.tmp )
+...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Dinic.h: Missing command, added as raw: Time.  on inp
+ut line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/DirectedMST.h" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[41])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/DominatorTree.cpp" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: DominatorTree.cpp: No commands found, added as raw: D
+ominatorTree.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/EdgeColoring.h" -o build/Referenc
+e.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/EdmondsKarp.h" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: EdmondsKarp.h: Missing command, added as raw: Time.  
+on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[42])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/EulerWalk.h" -o build/Reference.t
+mp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/FloydWarshall.h" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/GeneralMatching.h" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[43])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/GlobalMinCut.h" -o build/Referenc
+e.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/GomoryHu.h" -o build/Reference.tm
+p )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/HLD.cpp" -o build/Reference.tmp )
+...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[44])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/Hungarian.cpp" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Hungarian.cpp: No commands found, added as raw: Hunga
+rian.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/LCA.cpp" -o build/Reference.tmp )
+...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[45])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/LCA.py" -o build/Reference.tmp ).
+..executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[46])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/LCASparseTable.cpp" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/LinkCutTree.h" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[47])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/MaximalCliques.h" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/MaximumClique.h" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/MaximumIndependentSet.h" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: MaximumIndependentSet.h: Missing command, added as ra
+w: Time.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/MinCostMaxFlow.h" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp [48]
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/MinCut.h" -o build/Reference.tmp 
+)...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: MinCut.h: Missing command, added as raw: Time.  on in
+put line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/MinimumVertexCover.h" -o build/Re
+ference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: MinimumVertexCover.h: Missing command, added as raw: 
+Time.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/PushRelabel.h" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[49])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/SCC.h" -o build/Reference.tmp )..
+.executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/SCCTarjan.cpp" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: SCCTarjan.cpp: No commands found, added as raw: SCCTa
+rjan.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[50])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/TopoSort.cpp" -o build/Reference.
+tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/WeightedMatching.h" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/articulationPoints.cpp" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: articulationPoints.cpp: Missing command, added as raw
+: Time.  on input line 1.
+
+[51]
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/blockCutTree.cpp" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: blockCutTree.cpp: Missing command, added as raw: Time
+.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/bridgeTree.cpp" -o build/Referenc
+e.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: bridgeTree.cpp: Missing command, added as raw: Time. 
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[52])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/cycle.cpp" -o build/Reference.tmp
+ )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: cycle.cpp: No commands found, added as raw: cycle.cpp
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/dominatorTree.cpp" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: dominatorTree.cpp: No commands found, added as raw: d
+ominatorTree.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[53])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/flowWithLowerBound.cpp" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[54])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/gabowEdmonds.cpp" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: gabowEdmonds.cpp: No commands found, added as raw: ga
+bowEdmonds.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/gomoryHuTree.cpp" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: gomoryHuTree.cpp: No commands found, added as raw: go
+moryHuTree.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[55])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/hopcroftKarp.h" -o build/Referenc
+e.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/kShortestPaths.cpp" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: kShortestPaths.cpp: Missing command, added as raw: Ti
+me.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[56])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/kuhn-munkras.cpp" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: kuhn-munkras.cpp: No commands found, added as raw: ku
+hn-munkras.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/maxFlowDinic.cpp" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[57])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/maxFlowPushRelabel.cpp" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: maxFlowPushRelabel.cpp: No commands found, added as r
+aw: maxFlowPushRelabel.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/minCostMaxFlow.cpp" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: minCostMaxFlow.cpp: No commands found, added as raw: 
+minCostMaxFlow.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[58])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/stoerWagner.cpp" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: stoerWagner.cpp: No commands found, added as raw: sto
+erWagner.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/topTree.cpp" -o build/Reference.t
+mp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[59] [60])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../graph/treeIsomorphism.cpp" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: treeIsomorphism.cpp: No commands found, added as raw:
+ treeIsomorphism.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[61])) (../geometry/chapter.tex
+Chapter 6.
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/2d-base.cpp" -o build/Referenc
+e.tmp )...executed.
+
+(./build/Reference.tmp
+
+Package kactlpkg Warning: 2d-base.cpp: No commands found, added as raw: 2d-base
+.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[62])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/3dHull.h" -o build/Reference.t
+mp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/AllGeometry.cpp" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: AllGeometry.cpp: No commands found, added as raw: All
+Geometry.cpp on input line 1.
+
+[63]
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[64] [65] [66] [67] [68] [69])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/Angle.h" -o build/Reference.tm
+p )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Angle.h: Missing command, added as raw: Time.  on inp
+ut line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/CircleIntersection.h" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: CircleIntersection.h: Missing command, added as raw: 
+Time.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/CircleLine.h" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: CircleLine.h: Missing command, added as raw: Time.  o
+n input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/CirclePolygonIntersection.h" -
+o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/CircleTangents.h" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: CircleTangents.h: Missing command, added as raw: Time
+.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/ClosestPair.h" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/ConvexHull.h" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+File: ../geometry/ConvexHull.pdf Graphic file (type pdf)
+<use ../geometry/ConvexHull.pdf>
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[70])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/DelaunayTriangulation.h" -o bu
+ild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/FastDelaunay.h" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/HullDiameter.h" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: HullDiameter.h: Missing command, added as raw: Time. 
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/InsidePolygon.h" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp [71]
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/LineHullIntersection.h" -o bui
+ld/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/LineProjectionReflection.h" -o
+ build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: LineProjectionReflection.h: Missing command, added as
+ raw: Time.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/ManhattanMST.h" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/MinimumEnclosingCircle.h" -o b
+uild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/OnSegment.h" -o build/Referenc
+e.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: OnSegment.h: Missing command, added as raw: Time.  on
+ input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/Point.h" -o build/Reference.tm
+p )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Point.h: Missing command, added as raw: Time.  on inp
+ut line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[72])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/Point3D.h" -o build/Reference.
+tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Point3D.h: Missing command, added as raw: Time.  on i
+nput line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/PointInsideHull.h" -o build/Re
+ference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/PolygonArea.h" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: PolygonArea.h: Missing command, added as raw: Time.  
+on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/PolygonCenter.h" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/PolygonCut.h" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: PolygonCut.h: Missing command, added as raw: Time.  o
+n input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/PolygonUnion.h" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[73])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/PolyhedronVolume.h" -o build/R
+eference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: PolyhedronVolume.h: Missing command, added as raw: Ti
+me.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/SegmentDistance.h" -o build/Re
+ference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: SegmentDistance.h: Missing command, added as raw: Tim
+e.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/SegmentIntersection.h" -o buil
+d/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: SegmentIntersection.h: Missing command, added as raw:
+ Time.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/antipodalPoints.cpp" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: antipodalPoints.cpp: No commands found, added as raw:
+ antipodalPoints.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/basics.cpp" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: basics.cpp: No commands found, added as raw: basics.c
+pp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[74])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/circle.cpp" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: circle.cpp: No commands found, added as raw: circle.c
+pp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/circumcircle.h" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: circumcircle.h: Missing command, added as raw: Time. 
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) [75]
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/geometryComplex.cpp" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: geometryComplex.cpp: No commands found, added as raw:
+ geometryComplex.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[76])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/kdTree.h" -o build/Reference.t
+mp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: kdTree.h: Missing command, added as raw: Time.  on in
+put line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[77])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/lineDistance.h" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: lineDistance.h: Missing command, added as raw: Time. 
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/lineIntersection.h" -o build/R
+eference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: lineIntersection.h: Missing command, added as raw: Ti
+me.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/lineSegmentSntersections.cpp" 
+-o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: lineSegmentSntersections.cpp: No commands found, adde
+d as raw: lineSegmentSntersections.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/linearTransformation.h" -o bui
+ld/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: linearTransformation.h: Missing command, added as raw
+: Time.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/polygon-area-union.cpp" -o bui
+ld/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: polygon-area-union.cpp: No commands found, added as r
+aw: polygon-area-union.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[78])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/rectangleUnion.cpp" -o build/R
+eference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: rectangleUnion.cpp: No commands found, added as raw: 
+rectangleUnion.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[79])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/rectilinearMst.cpp" -o build/R
+eference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: rectilinearMst.cpp: No commands found, added as raw: 
+rectilinearMst.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/semiplaneIntersection.cpp" -o 
+build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: semiplaneIntersection.cpp: No commands found, added a
+s raw: semiplaneIntersection.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[80])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/sideOf.h" -o build/Reference.t
+mp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: sideOf.h: Missing command, added as raw: Time.  on in
+put line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/sphericalDistance.h" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: sphericalDistance.h: Missing command, added as raw: T
+ime.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../geometry/triangle-circle-area-intersect
+ion.cpp" -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: triangle-circle-area-intersection.cpp: No commands fo
+und, added as raw: triangle-circle-area-intersection.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)) (../BitMask/chapter.tex
+Chapter 7.
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../BitMask/SubsetSubset.cpp" -o build/Refe
+rence.tmp )...executed.
+
+(./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../BitMask/amountOfHamiltonianWalks.cpp" -
+o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[81])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../BitMask/existenceOfHamiltonianCycle.cpp
+" -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../BitMask/existenceOfHamiltonianWalk.cpp"
+ -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../BitMask/findingTheNumberOfSimplePaths.c
+pp" -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../BitMask/findingTheShortestHamiltonianCy
+cle.cpp" -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[82])) (../combinatorial/chapter.tex
+Chapter 8.
+(../combinatorial/factorial.tex) (../combinatorial/notes.tex
+(../combinatorial/factorial.tex)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../combinatorial/IntPerm.cpp" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../combinatorial/permutation.cpp" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) [83]
+Overfull \hbox (16.12744pt too wide) in paragraph at lines 52--60
+[][]  
+ []
+
+LaTeX Font Info:    Font shape `TU/CascadiaCode(0)/m/n' will be
+(Font)              scaled to size 4.19998pt on input line 94.
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../combinatorial/multinomial.cpp" -o build
+/Reference.tmp )...executed.
+
+(./build/Reference.tmp
+
+Package kactlpkg Warning: multinomial.cpp: Missing command, added as raw: Time.
+  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../combinatorial/BinomialCoeficients.cpp" 
+-o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[84]) [85])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../combinatorial/BinomialCoeficients.cpp" 
+-o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[86])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../combinatorial/IntPerm.cpp" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../combinatorial/StirlingFirst.cpp" -o bui
+ld/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: StirlingFirst.cpp: No commands found, added as raw: S
+tirlingFirst.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[87])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../combinatorial/multinomial.cpp" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: multinomial.cpp: Missing command, added as raw: Time.
+  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../combinatorial/permutation.cpp" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)) (../numerical/chapter.tex
+Chapter 9.
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/BasisXor.cpp" -o build/Refere
+nce.tmp )...executed.
+
+(./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[88])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/BerlekampMassey.cpp" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/Determinant.cpp" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) [89]
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/ExtendedPolynomial.cpp" -o bu
+ild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: ExtendedPolynomial.cpp: Missing command, added as raw
+: Time.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[90])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/FWHT.cpp" -o build/Reference.
+tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: FWHT.cpp: Missing command, added as raw: Time.  on in
+put line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[91])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/FastFourierTransform.h" -o bu
+ild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[92])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/FastFourierTransformMod.h" -o
+ build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/FastSubsetTransform.h" -o bui
+ld/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/GoldenSectionSearch.h" -o bui
+ld/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[93])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/HillClimbing.h" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: HillClimbing.h: Missing command, added as raw: Time. 
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/IntDeterminant.h" -o build/Re
+ference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/Integrate.h" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Integrate.h: Missing command, added as raw: Time.  on
+ input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/IntegrateAdaptive.h" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: IntegrateAdaptive.h: Missing command, added as raw: T
+ime.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/LinearRecurrence.h" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/MatrixInverse-mod.h" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[94])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/MatrixInverse.h" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/MatrixTemplate.cpp" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: MatrixTemplate.cpp: Missing command, added as raw: Ti
+me.  on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[95] [96])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/NumberTheoreticTransform.h" -
+o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp [97]
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/PolyInterpolate.h" -o build/R
+eference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/PolyRoots.h" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/Polynomial.h" -o build/Refere
+nce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: Polynomial.h: Missing command, added as raw: Time.  o
+n input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/PolynomialInt.cpp" -o build/R
+eference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: PolynomialInt.cpp: No commands found, added as raw: P
+olynomialInt.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[98] [99] [100] [101])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/SLAE.cpp" -o build/Reference.
+tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: SLAE.cpp: No commands found, added as raw: SLAE.cpp o
+n input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/Simplex.h" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[102])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/SolveLinear.h" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/SolveLinear2.h" -o build/Refe
+rence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: SolveLinear2.h: Missing command, added as raw: Time. 
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/SolveLinearBinary.h" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/SubsetSum.cpp" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: SubsetSum.cpp: Missing command, added as raw: Time.  
+on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[103])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/Tridiagonal.h" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/gauss.cpp" -o build/Reference
+.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: gauss.cpp: No commands found, added as raw: gauss.cpp
+ on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[104])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/matrixMul.cpp" -o build/Refer
+ence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: matrixMul.cpp: No commands found, added as raw: matri
+xMul.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/simplex copy.cpp" -o build/Re
+ference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: simplex copy.cpp: No commands found, added as raw: si
+mplex copy.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[105])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/simplex.cpp" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: simplex.cpp: No commands found, added as raw: simplex
+.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[106])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../numerical/simpson.cpp" -o build/Referen
+ce.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: simpson.cpp: No commands found, added as raw: simpson
+.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)) (../data-structures/chapter.tex
+Chapter 10.
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/FenwickTree.cpp" -o bui
+ld/Reference.tmp )...executed.
+
+(./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/FenwikTree.rs" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/HashMap.cpp" -o build/R
+eference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: HashMap.cpp: Missing command, added as raw: Time.  on
+ input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[107])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/ImplicitTreap.cpp" -o b
+uild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[108])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/IntervalTree.cpp" -o bu
+ild/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/LineContainer(CHT).cpp"
+ -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[109])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/OrderStatisticTree.cpp"
+ -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/QuadTree.cpp" -o build/
+Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\TU/CascadiaCode(0)/m/n/7 count(range(S[i].x,MAXN-S[i].x,S[i].y,MAXN-S[i].y),he
+ad); Range is an structure for a
+ []
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[110])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/SQRTDecomposition.cpp" 
+-o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/SegmentTree.cpp" -o bui
+ld/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+
+ []
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[111]
+Missing character: There is no 是 (U+662F) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 线 (U+7EBF) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 段 (U+6BB5) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 树 (U+6811) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 的 (U+7684) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 区 (U+533A) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 间 (U+95F4) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 是 (U+662F) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 的 (U+7684) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 区 (U+533A) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 间 (U+95F4) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+ [112]
+Missing character: There is no 是 (U+662F) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 线 (U+7EBF) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 段 (U+6BB5) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 树 (U+6811) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 的 (U+7684) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 区 (U+533A) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no 间 (U+95F4) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/SegmentTreeBeats.cpp" -
+o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+Missing character: There is no   (U+2009) in font [lmroman7-regular]:mapping=te
+x-text;!
+Missing character: There is no   (U+2009) in font [lmroman7-regular]:mapping=te
+x-text;!
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[113] [114])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/SegmentTreeDynamic.cpp"
+ -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[115])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/SegmentTreeDynamic2D.cp
+p" -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[116])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/SegmentTreeDynamicOpt.c
+pp" -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/SegmentTreePersistent.c
+pp" -o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[117] [118])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/SparseTable.cpp" -o bui
+ld/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/SubMatrix.cpp" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/moHilbert.cpp" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[119])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/randomizedKdTree.cpp" -
+o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: randomizedKdTree.cpp: No commands found, added as raw
+: randomizedKdTree.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[120])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/splayTree.cpp" -o build
+/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[121] [122])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/treap.cpp" -o build/Ref
+erence.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[123])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/vantagePointTree.cpp" -
+o build/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: vantagePointTree.cpp: No commands found, added as raw
+: vantagePointTree.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[124])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../data-structures/waveletTree.cpp" -o bui
+ld/Reference.tmp )...executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[125])) (../test/chapter.tex
+Chapter 11.
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../test/listToN.sh" -o build/Reference.tmp
+ -r)...executed.
+
+(./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../test/s.sh" -o build/Reference.tmp -r)..
+.executed.
+
+ (./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../test/gen.cpp" -o build/Reference.tmp ).
+..executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: gen.cpp: No commands found, added as raw: gen.cpp on 
+input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[126])
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../test/genTree2.cpp" -o build/Reference.t
+mp )...executed.
+
+ (./build/Reference.tmp
+
+Package kactlpkg Warning: genTree2.cpp: No commands found, added as raw: genTre
+e2.cpp on input line 1.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[127])) [128] (../appendix/chapter.tex
+Appendix A.
+runsystem(rm -f build/Reference.tmp)...executed.
+
+runsystem(python preprocessor.py -i "../appendix/techniques.txt" -o build/Refer
+ence.tmp -r -a)...executed.
+
+(./build/Reference.tmp
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+[129]
+Missing character: There is no ⌈ (U+2308) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no ⌉ (U+2309) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no ⌈ (U+2308) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no ⌉ (U+2309) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no ⌈ (U+2308) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no ⌉ (U+2309) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no ⌈ (U+2308) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+Missing character: There is no ⌉ (U+2309) in font [CascadiaCode.ttf]/OT:script=
+latn;language=dflt;+calt;!
+) [130] (../appendix/cheatSheet.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodepartlowerbox=\box141
+\pgfnodeparttwobox=\box142
+\pgfnodepartthreebox=\box143
+\pgfnodepartfourbox=\box144
+\pgfnodeparttwentybox=\box145
+\pgfnodepartnineteenbox=\box146
+\pgfnodeparteighteenbox=\box147
+\pgfnodepartseventeenbox=\box148
+\pgfnodepartsixteenbox=\box149
+\pgfnodepartfifteenbox=\box150
+\pgfnodepartfourteenbox=\box151
+\pgfnodepartthirteenbox=\box152
+\pgfnodeparttwelvebox=\box153
+\pgfnodepartelevenbox=\box154
+\pgfnodeparttenbox=\box155
+\pgfnodepartninebox=\box156
+\pgfnodeparteightbox=\box157
+\pgfnodepartsevenbox=\box158
+\pgfnodepartsixbox=\box159
+\pgfnodepartfivebox=\box160
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@layerbox@background=\box161
+\pgf@layerboxsaved@background=\box162
+)
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--45
+
+ []
+
+
+Overfull \hbox (440.1182pt too wide) in paragraph at lines 57--58
+[]  
+ []
+
+[131]
+Missing character: There is no ∣ (U+2223) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no ≤ (U+2264) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no ≡ (U+2261) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no   (U+2009) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no φ (U+03C6) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no   (U+2009) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no   (U+2009) in font [lmroman9-regular]:mapping=te
+x-text;!
+Missing character: There is no φ (U+03C6) in font [lmroman9-regular]:mapping=te
+x-text;!
+) [132])
+\tf@ptc=\write8
+\openout8 = `Reference.ptc'.
+
+ (build/Reference.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `Reference.out' has not changed.
+(rerunfilecheck)             Checksum: 23149D938EBB93A5795B0F036AFC3071;36327.
+ ) 
+Here is how much of TeX's memory you used:
+ 37648 strings out of 476788
+ 716775 string characters out of 5822420
+ 2569659 words of memory out of 6000000
+ 56613 multiletter control sequences out of 15000+600000
+ 410809 words of font info for 90 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 99i,16n,101p,555b,2122s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on build/Reference.pdf (132 pages).

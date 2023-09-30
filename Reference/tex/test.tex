@@ -1,0 +1,595 @@
+\documentclass[10pt,a4paper]{article}
+
+% Packages
+\usepackage{fancyhdr}           % For header and footer
+\usepackage{multicol}           % Allows multicols in tables
+\usepackage{tabularx}           % Intelligent column widths
+\usepackage{tabulary}           % Used in header and footer
+\usepackage{hhline}             % Border under tables
+\usepackage{graphicx}           % For images
+\usepackage{xcolor}             % For hex colours
+%\usepackage[utf8x]{inputenc}    % For unicode character support
+\usepackage[T1]{fontenc}        % Without this we get weird character replacements
+\usepackage{colortbl}           % For coloured tables
+\usepackage{setspace}           % For line height
+\usepackage{lastpage}           % Needed for total page number
+\usepackage{seqsplit}           % Splits long words.
+%\usepackage{opensans}          % Can't make this work so far. Shame. Would be lovely.
+\usepackage[normalem]{ulem}     % For underlining links
+% Most of the following are not required for the majority
+% of cheat sheets but are needed for some symbol support.
+\usepackage{amsmath}            % Symbols
+\usepackage{MnSymbol}           % Symbols
+\usepackage{wasysym}            % Symbols
+%\usepackage[english,german,french,spanish,italian]{babel}              % Languages
+
+% Document Info
+\author{Hemiter}
+\pdfinfo{
+  /Title (french-grammar-future-simple-past-participle.pdf)
+  /Creator (Cheatography)
+  /Author (Hemiter)
+  /Subject (French Grammar - Future Simple / Past Participle Cheat Sheet)
+}
+
+% Lengths and widths
+\addtolength{\textwidth}{6cm}
+\addtolength{\textheight}{-1cm}
+\addtolength{\hoffset}{-3cm}
+\addtolength{\voffset}{-2cm}
+\setlength{\tabcolsep}{0.2cm} % Space between columns
+\setlength{\headsep}{-12pt} % Reduce space between header and content
+\setlength{\headheight}{85pt} % If less, LaTeX automatically increases it
+\renewcommand{\footrulewidth}{0pt} % Remove footer line
+\renewcommand{\headrulewidth}{0pt} % Remove header line
+\renewcommand{\seqinsert}{\ifmmode\allowbreak\else\-\fi} % Hyphens in seqsplit
+% This two commands together give roughly
+% the right line height in the tables
+\renewcommand{\arraystretch}{1.3}
+\onehalfspacing
+
+% Commands
+\newcommand{\SetRowColor}[1]{\noalign{\gdef\RowColorName{#1}}\rowcolor{\RowColorName}} % Shortcut for row colour
+\newcommand{\mymulticolumn}[3]{\multicolumn{#1}{>{\columncolor{\RowColorName}}#2}{#3}} % For coloured multi-cols
+\newcolumntype{x}[1]{>{\raggedright}p{#1}} % New column types for ragged-right paragraph columns
+\newcommand{\tn}{\tabularnewline} % Required as custom column type in use
+
+% Font and Colours
+\definecolor{HeadBackground}{HTML}{333333}
+\definecolor{FootBackground}{HTML}{666666}
+\definecolor{TextColor}{HTML}{333333}
+\definecolor{DarkBackground}{HTML}{7D4572}
+\definecolor{LightBackground}{HTML}{F6F3F6}
+\renewcommand{\familydefault}{\sfdefault}
+\color{TextColor}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhead{} % Set header to blank
+\fancyfoot{} % Set footer to blank
+\fancyhead[L]{
+\noindent
+\begin{multicols}{3}
+\begin{tabulary}{5.8cm}{C}
+    \SetRowColor{DarkBackground}
+    \vspace{-7pt}
+    {\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\noindent
+        \hspace*{-6pt}\includegraphics[width=5.8cm]{/web/www.cheatography.com/public/images/cheatography_logo.pdf}}
+    }
+\end{tabulary}
+\columnbreak
+\begin{tabulary}{11cm}{L}
+    \vspace{-2pt}\large{\bf{\textcolor{DarkBackground}{\textrm{French Grammar - Future Simple / Past Participle Cheat Sheet}}}} \\
+    \normalsize{by \textcolor{DarkBackground}{Hemiter} via \textcolor{DarkBackground}{\uline{cheatography.com/9497/cs/1261/}}}
+\end{tabulary}
+\end{multicols}}
+
+\fancyfoot[L]{ \footnotesize
+\noindent
+\begin{multicols}{3}
+\begin{tabulary}{5.8cm}{LL}
+  \SetRowColor{FootBackground}
+  \mymulticolumn{2}{p{5.377cm}}{\bf\textcolor{white}{Cheatographer}}  \\
+  \vspace{-2pt}Hemiter \\
+  \uline{cheatography.com/hemiter} \\
+  \end{tabulary}
+\vfill
+\columnbreak
+\begin{tabulary}{5.8cm}{L}
+  \SetRowColor{FootBackground}
+  \mymulticolumn{1}{p{5.377cm}}{\bf\textcolor{white}{Cheat Sheet}}  \\
+   \vspace{-2pt}Published 22nd September, 2013.\\
+   Updated 26th February, 2020.\\
+   Page {\thepage} of \pageref{LastPage}.
+\end{tabulary}
+\vfill
+\columnbreak
+\begin{tabulary}{5.8cm}{L}
+  \SetRowColor{FootBackground}
+  \mymulticolumn{1}{p{5.377cm}}{\bf\textcolor{white}{Sponsor}}  \\
+  \SetRowColor{white}
+  \vspace{-5pt}
+  %\includegraphics[width=48px,height=48px]{dave.jpeg}
+  Measure your website readability!\\
+  www.readability-score.com
+\end{tabulary}
+\end{multicols}}
+
+
+
+
+\begin{document}
+\raggedright
+\raggedcolumns
+
+% Set font size to small. Switch to any value
+% from this page to resize cheat sheet text:
+% www.emerson.emory.edu/services/latex/latex_169.html
+\footnotesize % Small font.
+
+\begin{multicols*}{3}
+
+\begin{tabularx}{5.377cm}{x{1.92234 cm} x{1.96811 cm} p{0.68655 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{3}{x{5.377cm}}{\bf\textcolor{white}{Simple Future Tense}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+{\bf{Parler}} & {\bf{Prendre}} & {\bf{Forme}} \tn 
+% Row Count 2 (+ 2)
+% Row 1
+\SetRowColor{white}
+Je {\emph{parler{\bf{ai}}}} & Je {\emph{prendr{\bf{ai}}}} & {\bf{+ai}} \tn 
+% Row Count 4 (+ 2)
+% Row 2
+\SetRowColor{LightBackground}
+Tu {\emph{parler{\bf{as}}}} & Tu {\emph{prendr{\bf{as}}}} & {\bf{+as}} \tn 
+% Row Count 6 (+ 2)
+% Row 3
+\SetRowColor{white}
+Il / Elle / On {\emph{parler{\bf{a}}}} & Il / Elle / On {\emph{prend{\bf{ra}}}} & {\bf{+a}} \tn 
+% Row Count 8 (+ 2)
+% Row 4
+\SetRowColor{LightBackground}
+Nous {\emph{parler{\bf{ions}}}} & Nous {\emph{prendr{\bf{ions}}}} & {\bf{+ions}} \tn 
+% Row Count 10 (+ 2)
+% Row 5
+\SetRowColor{white}
+Vous {\emph{parler{\bf{iez}}}} & Vous {\emph{prendr{\bf{iez}}}} & {\bf{+iez}} \tn 
+% Row Count 12 (+ 2)
+% Row 6
+\SetRowColor{LightBackground}
+Ils / Elles {\emph{parler{\bf{aient}}}} & Ils / Elles {\emph{prendr{\bf{aient}}}} & {\bf{+aient}} \tn 
+% Row Count 14 (+ 2)
+\hhline{>{\arrayrulecolor{DarkBackground}}---}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{1.23579 cm} x{1.92234 cm} x{1.41887 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{3}{x{5.377cm}}{\bf\textcolor{white}{Irregular Verbs for Future Simple}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+Aller & J'irai & {\emph{ir}} \tn 
+% Row Count 1 (+ 1)
+% Row 1
+\SetRowColor{white}
+Avoir & J'aurai & {\emph{aur}} \tn 
+% Row Count 2 (+ 1)
+% Row 2
+\SetRowColor{LightBackground}
+Être & Je serai & {\emph{ser}} \tn 
+% Row Count 3 (+ 1)
+% Row 3
+\SetRowColor{white}
+Faire & Je ferai & {\emph{fer}} \tn 
+% Row Count 4 (+ 1)
+% Row 4
+\SetRowColor{LightBackground}
+Pouvoir & Je pourrai & {\emph{pour}} \tn 
+% Row Count 5 (+ 1)
+% Row 5
+\SetRowColor{white}
+Savoir & Je saurai & {\emph{saur}} \tn 
+% Row Count 6 (+ 1)
+% Row 6
+\SetRowColor{LightBackground}
+Venir & Je viendrai & {\emph{viendr}} \tn 
+% Row Count 7 (+ 1)
+% Row 7
+\SetRowColor{white}
+Voir & Je verrai & {\emph{verr}} \tn 
+% Row Count 8 (+ 1)
+% Row 8
+\SetRowColor{LightBackground}
+Vouloir & Je voudrai & {\emph{voudr}} \tn 
+% Row Count 9 (+ 1)
+\hhline{>{\arrayrulecolor{DarkBackground}}---}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{1.51041 cm} x{2.15119 cm} x{0.9154 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{3}{x{5.377cm}}{\bf\textcolor{white}{The Composite Past Tense}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+{\bf{Infinitif}} & {\bf{Passé Composé}} & {\bf{Sens}} \tn 
+% Row Count 2 (+ 2)
+% Row 1
+\SetRowColor{white}
+aller & allé(s) & walk \tn 
+% Row Count 3 (+ 1)
+% Row 2
+\SetRowColor{LightBackground}
+arriver & arriveé(s) & arrive \tn 
+% Row Count 4 (+ 1)
+% Row 3
+\SetRowColor{white}
+descendre & descendu(s) & descend \tn 
+% Row Count 5 (+ 1)
+% Row 4
+\SetRowColor{LightBackground}
+entrer & entré(s) & enter \tn 
+% Row Count 6 (+ 1)
+% Row 5
+\SetRowColor{white}
+monter & monté(s) & ascend \tn 
+% Row Count 7 (+ 1)
+% Row 6
+\SetRowColor{LightBackground}
+mourir & {\emph{mort(s)}} & die \tn 
+% Row Count 8 (+ 1)
+% Row 7
+\SetRowColor{white}
+naître & {\emph{né(s)}} & born \tn 
+% Row Count 9 (+ 1)
+% Row 8
+\SetRowColor{LightBackground}
+partir & parti(s) & leave \tn 
+% Row Count 10 (+ 1)
+% Row 9
+\SetRowColor{white}
+rester & resté(s) & stay \tn 
+% Row Count 11 (+ 1)
+% Row 10
+\SetRowColor{LightBackground}
+retourner & retourné(s) & return \tn 
+% Row Count 12 (+ 1)
+% Row 11
+\SetRowColor{white}
+sortir & sorti(s) & exit \tn 
+% Row Count 13 (+ 1)
+% Row 12
+\SetRowColor{LightBackground}
+tomber & tombé(s) & fall \tn 
+% Row Count 14 (+ 1)
+% Row 13
+\SetRowColor{white}
+venir & venu(s) & come \tn 
+% Row Count 15 (+ 1)
+\hhline{>{\arrayrulecolor{DarkBackground}}---}
+\SetRowColor{LightBackground}
+\mymulticolumn{3}{x{5.377cm}}{Plural forms add a {\emph{s}} (Nous, Vous, Ils, Elles). \newline Feminin forms add an {\emph{e}} (Je, Tu, Elle, Vous, Elles)}  \tn 
+\hhline{>{\arrayrulecolor{DarkBackground}}---}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{2.88666 cm} x{2.09034 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{2}{x{5.377cm}}{\bf\textcolor{white}{Different Composite Past}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+J'{\bf{{\emph{ai}}}} & Tu {\bf{{\emph{as}}}} \tn 
+% Row Count 1 (+ 1)
+% Row 1
+\SetRowColor{white}
+Il / Elle / On {\bf{{\emph{a}}}} & Nous {\bf{{\emph{avons}}}} \tn 
+% Row Count 2 (+ 1)
+% Row 2
+\SetRowColor{LightBackground}
+Ils / Elles {\bf{{\emph{ont}}}} & Vous {\bf{{\emph{avez}}}} \tn 
+% Row Count 3 (+ 1)
+\hhline{>{\arrayrulecolor{DarkBackground}}--}
+\SetRowColor{LightBackground}
+\mymulticolumn{2}{x{5.377cm}}{Use the past tense of {\emph{avoir}}}  \tn 
+\hhline{>{\arrayrulecolor{DarkBackground}}--}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{1.46464 cm} x{2.01388 cm} x{1.09848 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{3}{x{5.377cm}}{\bf\textcolor{white}{Past Participles with -u}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+Boire & J'ai {\emph{bu}} & Drink \tn 
+% Row Count 1 (+ 1)
+% Row 1
+\SetRowColor{white}
+Lire & J'ai {\emph{lu}} & Read \tn 
+% Row Count 2 (+ 1)
+% Row 2
+\SetRowColor{LightBackground}
+Voir & J'ai {\emph{vu}} & See \tn 
+% Row Count 3 (+ 1)
+% Row 3
+\SetRowColor{white}
+Attendre & J'ai {\emph{attendu}} & Expect \tn 
+% Row Count 4 (+ 1)
+% Row 4
+\SetRowColor{LightBackground}
+Entendre & J'ai {\emph{entendu}} & Hear \tn 
+% Row Count 5 (+ 1)
+% Row 5
+\SetRowColor{white}
+Répondre & J'ai {\emph{répondu}} & Respond \tn 
+% Row Count 6 (+ 1)
+% Row 6
+\SetRowColor{LightBackground}
+Perdre & J'ai {\emph{perdu}} & Lose \tn 
+% Row Count 7 (+ 1)
+% Row 7
+\SetRowColor{white}
+Recevoir & J'ai {\emph{reçu}} & Receive \tn 
+% Row Count 8 (+ 1)
+% Row 8
+\SetRowColor{LightBackground}
+Courir & J'ai {\emph{couru}} & Run \tn 
+% Row Count 9 (+ 1)
+% Row 9
+\SetRowColor{white}
+Savoir & J'ai {\emph{su}} & Know \tn 
+% Row Count 10 (+ 1)
+% Row 10
+\SetRowColor{LightBackground}
+Devoir & J'ai {\bf{{\emph{dû}}}} & Must \tn 
+% Row Count 11 (+ 1)
+% Row 11
+\SetRowColor{white}
+Pourvoir & J'ai {\emph{pu}} & Can \tn 
+% Row Count 12 (+ 1)
+% Row 12
+\SetRowColor{LightBackground}
+Vouloir & J'ai {\emph{voulu}} & Want \tn 
+% Row Count 13 (+ 1)
+% Row 13
+\SetRowColor{white}
+Avoir & J'ai {\bf{{\emph{eu}}}} & Have \tn 
+% Row Count 14 (+ 1)
+% Row 14
+\SetRowColor{LightBackground}
+Pleuvoir & J'ai {\emph{plu}} & Rain \tn 
+% Row Count 15 (+ 1)
+% Row 15
+\SetRowColor{white}
+Croire & J'ai {\emph{cru}} & Believe \tn 
+% Row Count 16 (+ 1)
+% Row 16
+\SetRowColor{LightBackground}
+Vivre & J'ai {\bf{{\emph{vécu}}}} & Live \tn 
+% Row Count 17 (+ 1)
+% Row 17
+\SetRowColor{white}
+Connaître & J'ai {\emph{connu}} & Know \tn 
+% Row Count 18 (+ 1)
+% Row 18
+\SetRowColor{LightBackground}
+\seqsplit{Disparaître} & J'ai {\emph{disparu}} & \seqsplit{Disappear} \tn 
+% Row Count 19 (+ 1)
+\hhline{>{\arrayrulecolor{DarkBackground}}---}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{1.23579 cm} x{2.2885 cm} p{1.05271 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{3}{x{5.377cm}}{\bf\textcolor{white}{Past Participles with -i}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+Finir & J'ai {\emph{fini}} & Finish \tn 
+% Row Count 1 (+ 1)
+% Row 1
+\SetRowColor{white}
+Dormir & J'ai {\emph{dormi}} & Sleep \tn 
+% Row Count 2 (+ 1)
+% Row 2
+\SetRowColor{LightBackground}
+Sourire & J'ai {\emph{souri}} & Smile \tn 
+% Row Count 3 (+ 1)
+% Row 3
+\SetRowColor{white}
+Grandir & J'ai {\emph{grandi}} & Grow \tn 
+% Row Count 4 (+ 1)
+% Row 4
+\SetRowColor{LightBackground}
+Choisir & J'ai {\emph{choisi}} & Choose \tn 
+% Row Count 5 (+ 1)
+\hhline{>{\arrayrulecolor{DarkBackground}}---}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{1.05271 cm} x{1.51041 cm} x{2.01388 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{3}{x{5.377cm}}{\bf\textcolor{white}{Past Participle with -is}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+Prendre & J'ai {\emph{pris}} & Take \tn 
+% Row Count 1 (+ 1)
+% Row 1
+\SetRowColor{white}
+\seqsplit{Apprendre} & J'ai {\emph{appris}} & Learn \tn 
+% Row Count 2 (+ 1)
+% Row 2
+\SetRowColor{LightBackground}
+\seqsplit{Comprendre} & J'ai {\emph{compris}} & Understand; Include \tn 
+% Row Count 4 (+ 2)
+% Row 3
+\SetRowColor{white}
+Mettre & J'ai {\bf{{\emph{mis}}}} & Put \tn 
+% Row Count 6 (+ 2)
+\hhline{>{\arrayrulecolor{DarkBackground}}---}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{1.09848 cm} x{1.96811 cm} x{1.51041 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{3}{x{5.377cm}}{\bf\textcolor{white}{Past Participles with -it}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+Dire & J'ai {\emph{dit}} & Say \tn 
+% Row Count 1 (+ 1)
+% Row 1
+\SetRowColor{white}
+Écrire & J'ai {\emph{écrit}} & Write \tn 
+% Row Count 2 (+ 1)
+% Row 2
+\SetRowColor{LightBackground}
+Conduire & J'ai {\emph{conduit}} & Drive; Lead \tn 
+% Row Count 3 (+ 1)
+% Row 3
+\SetRowColor{white}
+Traduire & J'ai {\emph{traduit}} & Translate \tn 
+% Row Count 4 (+ 1)
+\hhline{>{\arrayrulecolor{DarkBackground}}---}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{1.32733 cm} x{2.19696 cm} x{1.05271 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{3}{x{5.377cm}}{\bf\textcolor{white}{Past Participles with -ert}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+Ouvert & J'ai {\emph{ouvert}} & Open \tn 
+% Row Count 1 (+ 1)
+% Row 1
+\SetRowColor{white}
+Offrir & J'ai {\emph{offert}} & Offer \tn 
+% Row Count 2 (+ 1)
+% Row 2
+\SetRowColor{LightBackground}
+Découvrir & J'ai {\emph{découvert}} & Discover \tn 
+% Row Count 3 (+ 1)
+% Row 3
+\SetRowColor{white}
+Souffrir & J'ai {\emph{souffert}} & Suffer \tn 
+% Row Count 4 (+ 1)
+\hhline{>{\arrayrulecolor{DarkBackground}}---}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{0.87717 cm} x{1.12779 cm} x{1.08602 cm} x{1.08602 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{4}{x{5.377cm}}{\bf\textcolor{white}{Verbs in Conditional Present}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+{\bf{AVOIR}} & {\bf{POUVOIR}} & {\bf{VOULOIR}} & {\bf{DEVOIR}} \tn 
+% Row Count 2 (+ 2)
+% Row 1
+\SetRowColor{white}
+J'au{\emph{rais}} & Je pour{\emph{rais}} & Je voud{\emph{rais}} & Je dev{\emph{rais}} \tn 
+% Row Count 4 (+ 2)
+% Row 2
+\SetRowColor{LightBackground}
+Tu au{\emph{rais}} & Tu pour{\emph{rais}} & Tu voud{\emph{rais}} & Tu dev{\emph{rais}} \tn 
+% Row Count 6 (+ 2)
+% Row 3
+\SetRowColor{white}
+Il au{\emph{rait}} & Elle pour{\emph{rait}} & On voud{\emph{rait}} & Il dev{\emph{rait}} \tn 
+% Row Count 8 (+ 2)
+% Row 4
+\SetRowColor{LightBackground}
+Nous au{\emph{rions}} & Nous pour{\emph{rions}} & Nous voud{\emph{rions}} & Nous dev{\emph{rions}} \tn 
+% Row Count 10 (+ 2)
+% Row 5
+\SetRowColor{white}
+Vous au{\emph{riez}} & Vous pour{\emph{riez}} & Vous voud{\emph{riez}} & Vous dev{\emph{riez}} \tn 
+% Row Count 12 (+ 2)
+% Row 6
+\SetRowColor{LightBackground}
+Ils au{\emph{raient}} & Elles pour{\emph{raient}} & Ils vould{\emph{raient}} & Elles dev{\emph{raient}} \tn 
+% Row Count 14 (+ 2)
+\hhline{>{\arrayrulecolor{DarkBackground}}----}
+\SetRowColor{LightBackground}
+\mymulticolumn{4}{x{5.377cm}}{For conditional presents, add {\emph{rais}}, {\emph{rais}}, {\emph{rait}}, {\emph{rions}}, {\emph{riez}} and {\emph{raient}} \newline Same for the verb Ãªtre: {\emph{serais}}, {\emph{serais}}, {\emph{serait}}, {\emph{serions}}, {\emph{seriez}} and {\emph{seraient}}.}  \tn 
+\hhline{>{\arrayrulecolor{DarkBackground}}----}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{1.94103 cm} x{3.03597 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{2}{x{5.377cm}}{\bf\textcolor{white}{Imperfect Formation}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+Je & {\bf{+ais}} (parlais) \tn 
+% Row Count 1 (+ 1)
+% Row 1
+\SetRowColor{white}
+Tu & {\bf{+ais}} (parlais) \tn 
+% Row Count 2 (+ 1)
+% Row 2
+\SetRowColor{LightBackground}
+On / Il / Elle & {\bf{+ait}} (parlait) \tn 
+% Row Count 3 (+ 1)
+% Row 3
+\SetRowColor{white}
+Nous & {\bf{+ions}} (parlions) \tn 
+% Row Count 4 (+ 1)
+% Row 4
+\SetRowColor{LightBackground}
+Vous & {\bf{+iez}} (parliez) \tn 
+% Row Count 5 (+ 1)
+% Row 5
+\SetRowColor{white}
+Ils / Elles & {\bf{+aient}} (parlaient) \tn 
+% Row Count 6 (+ 1)
+\hhline{>{\arrayrulecolor{DarkBackground}}--}
+\SetRowColor{LightBackground}
+\mymulticolumn{2}{x{5.377cm}}{V (nous / prÃ©sent) = base de l'imparfait + ais, ais, ait, ions, iez, aient}  \tn 
+\hhline{>{\arrayrulecolor{DarkBackground}}--}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{2.88666 cm} x{2.09034 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{2}{x{5.377cm}}{\bf\textcolor{white}{Use of Imperfect}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+Pour décrire dans le passé & Desciption physicque \tn 
+% Row Count 2 (+ 2)
+% Row 1
+\SetRowColor{white}
+ & De l'environnement \tn 
+% Row Count 4 (+ 2)
+% Row 2
+\SetRowColor{LightBackground}
+ & Des sentiments \tn 
+% Row Count 5 (+ 1)
+% Row 3
+\SetRowColor{white}
+\mymulticolumn{2}{x{5.377cm}}{Pour parler des ses habitudes du passé} \tn 
+% Row Count 6 (+ 1)
+\hhline{>{\arrayrulecolor{DarkBackground}}--}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+\begin{tabularx}{5.377cm}{x{1.59264 cm} x{3.38436 cm} }
+\SetRowColor{DarkBackground}
+\mymulticolumn{2}{x{5.377cm}}{\bf\textcolor{white}{Recent Past, Present Progressive, Close Future}}  \tn
+% Row 0
+\SetRowColor{LightBackground}
+passé récent & {\bf{{\emph{venir de / d'}}}} + infinitif \tn 
+% Row Count 2 (+ 2)
+% Row 1
+\SetRowColor{white}
+présent progressif & {\bf{{\emph{être en train de / d'}}}} + infinitif \tn 
+% Row Count 4 (+ 2)
+% Row 2
+\SetRowColor{LightBackground}
+futur proche & {\bf{{\emph{aller}}}} + infinitif \tn 
+% Row Count 5 (+ 1)
+\hhline{>{\arrayrulecolor{DarkBackground}}--}
+\end{tabularx}
+\par\addvspace{1.3em}
+
+
+% That's all folks
+\end{multicols*}
+
+\end{document}

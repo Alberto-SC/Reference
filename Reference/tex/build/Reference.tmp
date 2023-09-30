@@ -1,0 +1,222 @@
+\leftcaption{techniques.txt}
+\rightcaption{218 lines}
+\begin{lstlisting}[language=raw,caption={techniques.txt}]
+#Techniques / Hints / things to think 
+
+#Do stress test with a brute solution
+#Recursion
+#Divide and conquer
+	- Finding interesting points in N log N
+#Techniques/ things to thing
+	* Meet in the middle 
+	* Two pointers 
+	* Sweep line
+	* Prefix function
+	* Try different complexity for different sizes SQRT for sizes <= SQRT and other solution 
+	* How many different values are? 
+	* Greedy 
+	* See in reverse way 
+	* Duplicate array
+	* How fast grow 
+	* Does have a binary behavior 
+	* Divide and conquer
+	* xor hashing
+	* Mo's algorithm , SQRT decomposition etc. 
+#Algorithm analysis
+ 	- Master theorem
+	- Amortized time complexity
+#Greedy algorithm
+	- Scheduling
+	- Max contiguous subvector sum
+	- Invariants
+	- Huffman encoding
+#Graph theory
+	- Dynamic graphs (extra book-keeping)
+	- Breadth first search
+	- Depth first search
+	- * Normal trees / DFS trees
+	- Dijkstra's algorithm
+	- MST: Prim's algorithm
+	- Bellman-Ford
+	- Konig's theorem and vertex cover 
+	- Min-cost max flow
+	- Lovasz toggle
+	- Matrix tree theorem / Number Spaning trees in a graph
+	- Maximal matching, general graphs
+	- Hopcroft-Karp
+	- Hall's marriage theorem {\displaystyle |W|\leq |N_{G}(W)|.}
+	- Graphical sequences
+	- Floyd-Warshall
+	- Euler cycles
+	- Flow networks
+	- * Augmenting paths
+	- * Edmonds-Karp
+	- * Min cost max flow
+	- * Min cut
+	- Bipartite matching
+	- Min. path cover
+	- Topological sorting
+	- Strongly connected components
+	- 2-SAT
+	- Cut vertices, cut-edges and biconnected components
+	- Edge coloring
+	- * Trees
+	- Vertex coloring
+	- * Bipartite graphs (=> trees)
+	- * 3^n (special case of set cover)
+	- Diameter and centroid
+	- DSU on tree. 
+	- Small to large. 
+	- K'th shortest path
+	- Shortest cycle
+	- Euler tour, can manage path to root and subtree queries	
+	- Euler tour tree
+	- link cut tree
+	- Add Dummy nodes
+
+#Dynamic programming
+	- Knapsack
+	- Coin change
+	- Longest common subsequence
+	- Longest increasing subsequence
+	- Number of paths in a dag
+	- Shortest path in a dag
+	- Dynprog over intervals
+	- Dynprog over subsets
+	- Dynprog over probabilities
+	- Dynprog over trees
+	- 3^n set cover
+	- SOS DP (n*2^n)
+	- Divide and conquer
+	- Knuth optimization
+	- Convex hull optimizations
+	- Alien trick
+	- RMQ (sparse table a.k.a 2^k-jumps)
+	- Bitonic cycle
+	- Log partitioning (loop over most restricted)
+Combinatorics
+	- Computation of binomial coefficients
+	- Pigeon-hole principle
+	- Inclusion/exclusion
+	- Catalan number
+	- Stirling 
+	- Bell numbers
+	- Pick's theorem
+Number theory
+	- Integer parts
+	- Divisibility
+	- Euclidean algorithm
+	- Modular arithmetic
+	- Linear Congruence Equation -> a . x == b (mod n)   -> x = b . a^-1 b
+	- Linear diophantine Equation -> ax +by = c
+	- Discrete log -> find x such  a^x == b (mod n) 
+	- Discrete root -> find x such  x^k == a (mod n) 
+	- * Modular multiplication
+	- * Modular inverses
+	- * Modular exponentiation by squaring
+	- Chinese remainder theorem
+	- Fermat's little theorem
+	- Euler's theorem
+	- Phi function
+	- Frobenius number
+	- Quadratic reciprocity
+	- Pollard-Rho
+	- Miller-Rabin
+	- Hensel lifting
+	- Vieta root jumping
+	- Subset sum (DP, NTT)
+Game theory
+	- Combinatorial games
+	- Game trees
+	- Mini-max
+	- Nim
+	- Games on graphs
+	- Games on graphs with loops
+	- Grundy numbers
+	- Bipartite games without repetition
+	- General games without repetition
+	- Alpha-beta pruning
+Probability theory
+Optimization
+	- Binary search
+	- Ternary search
+	- Unimodality and convex functions
+	- Binary search on derivative
+Numerical methods
+	- Numeric integration
+	- Newton's method
+	- Root-finding with binary/ternary search
+	- Golden section search
+Matrices
+	- Gaussian elimination
+	- Exponentiation by squaring
+Sorting
+	- Radix sort
+Geometry
+	- Coordinates and vectors
+	- * Cross product
+	- * Scalar product
+	- Convex hull
+	- Polygon cut
+	- Closest pair
+	- Coordinate-compression
+	- Quadtrees
+	- KD-trees
+	- All segment-segment intersection
+Sweeping
+	- Discretization (convert to events and sweep)
+	- Angle sweeping
+	- Line sweeping
+	- Discrete second derivatives
+Strings
+	- Longest common substring
+	- Palindrome subsequences
+	- Knuth-Morris-Pratt
+	- Tries
+	- Rolling polynomial hashes
+	- Suffix array
+	- Suffix tree
+	- Aho-Corasick
+	- Manacher's algorithm
+	- Letter position lists
+Combinatorial search
+	- Meet in the middle
+	- Brute-force with pruning
+	- Best-first (A*)
+	- Bidirectional search
+	- Iterative deepening DFS / A*
+Data structures
+	- LCA (2^k-jumps in trees in general)
+	- Pull/push-technique on trees
+	- Heavy-light decomposition
+	- Centroid decomposition
+	- Lazy propagation
+	- Self-balancing trees
+	- Convex hull trick
+	- Monotone queues / monotone stacks / sliding queues
+	- Sliding queue using 2 stacks
+	- Persistent segment tree
+	- Treap (Can be used as order statics sets with extra operations)
+	- Implicit treap (Full dynamic array with operations in range)
+	- O(1) queries with disjoint sparse table
+General
+	- If problem is check for all multiples of a number in [1,n] and this multiples don´t exed maxn complexity is (maxn log(maxn))
+	- Sum of n/1+ n/2 + n/3 + n/4 + ... is nlogn
+	- Merge many sets can be do it in n logn if we insert elements of the minor set to the mayor set
+	- Strings? Do you made a suffix array or suffix tree
+	- Graphs? shortes Path with two variables or many types of edges? try to clone graph
+	- try to decompose the formula
+	- TLE? and modulos , try to do less % operations if you have long long do modulo only when a>=(mod*8) where modulo is something like 1e9+7
+	- Best of all posibilities whit small n like 30-40 try meet in the middle
+	- need a subset whit some features and at least n/2 elements? try randomize
+	- Boolean assigments?  2-sat? basisxor? SLAE?
+	- Queries about paths with some specific value like sum xor? try to decompose with centroid decomposition and solve for each tree root in each centroid 
+	- Check parity
+	- querys on path of tree? if it´s only to root is enough to do an euler traversal and flat the tree in other case use HLD 
+  - Work with ceil function 
+ x≤n
+⌈x⌉≤n
+Also note that since ⌈A/B⌉ and C are both integers, ⌈A/B⌉<C is equivalent to ⌈A/B⌉≤C−1.
+Combining these equivalences means that the original condition is equivalent to A/B≤C−1.
+
+\end{lstlisting}

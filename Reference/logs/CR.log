@@ -1,0 +1,1 @@
+2022-12-02 16:29:10,520 ERROR parseMetadata The file ./appendix/techniques.txt is missing some commands set as required (['Author', 'Description', 'Time']), it will be treated as a raw file without metadata

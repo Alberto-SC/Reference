@@ -1,0 +1,29 @@
+Archivo wav: C:\Users\silva\Desktop\Programacion competitiva\UVA/entrada.wav
+Opening  file..
+(1-4): RIFF 
+100 0 0 0
+(5-8) Overall size: bytes:100, Kb:0 
+(9-12) Wave marker: WAVE
+(13-16) Fmt marker: fmt 
+16 0 0 0
+(17-20) Length of Fmt header: 16 
+1 0 
+(21-22) Format type: 1 PCM 
+1 0 
+(23-24) Channels: 1 
+208 7 0 0
+(25-28) Sample rate: 2000
+160 15 0 0
+(29-32) Byte Rate: 4000 , Bit Rate:32000
+2 0 
+(33-34) Block Alignment: 2 
+16 0 
+(35-36) Bits per sample: 16 
+(37-40) Data Marker: data 
+64 0 0 0
+(41-44) Size of data chunk: 64 
+Number of samples:32 
+Size of each sample:2 bytes
+Approx.Duration in seconds=0.025000
+Approx.Duration in h:m:s=0:0:0.25
+Dump sample data? Y/N?Input Side        Output Side

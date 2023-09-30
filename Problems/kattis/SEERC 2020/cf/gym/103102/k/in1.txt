@@ -1,0 +1,10 @@
+3
+actor
+cheat
+zeta
+1
+rBBnR
+NRnbB
+nRRnR
+NRxBr
+nBRbB

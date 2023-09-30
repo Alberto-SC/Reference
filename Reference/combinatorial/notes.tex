@@ -1,0 +1,223 @@
+\section{Permutations}
+	\subsection{Factorial}
+		\import{factorial.tex}
+		\subsection{factoradic}
+		El sistema factorádico es un sistema numérico de raíz mixta basado en factoriales en el que el n-ésimo dígito, empezando desde la derecha, debe ser multiplicado por n!
+
+		Hay una relación natural entre los enteros 0, ..., n! − 1 (o de manera equivalente los números factorádicos con n elementos) en orden lexicográfico, cuando los enteros son expresados en forma factorádica. Esta relación ha sido llamada código Lehmer o código Lucas-Lehmer (tabla invertida). Por ejemplo, con n = 3, dicha relación es
+
+		\begin{tabular}{lll}
+			\hline
+		\multicolumn{1}{|l|}{Decimal} & \multicolumn{1}{l|}{Factoradic} & \multicolumn{1}{l|}{Permutation} \\ \hline
+		$0_{10}$                         & $0_2 0_1 0_0$                   & (0,1,2)   \\                      
+		$1_{10}$                         & $0_2 1_1 0_0$                   & (0,2,1)   \\                    
+		$2_{10}$                         & $1_2 0_1 0_0$                   & (1,0,2)   \\                    
+		$3_{10}$                         & $1_2 1_1 0_0$                   & (1,2,0)   \\                    
+		$4_{10}$                         & $2_2 0_1 0_0$                   & (2,0,1)   \\                    
+		$5_{10}$                         & $2_2 1_1 0_0$                   & (2,1,0)                         
+		\end{tabular}
+		\kactlimport{IntPerm.cpp}
+		\kactlimport{permutation.cpp}
+
+	\subsection{General}
+
+	\begin{itemize}
+		\item Principio de las casillas: al colocar $n$ objetos en $k$ lugares hay al menos $\lceil \frac{n}{k} \rceil$ objetos en un mismo lugar.
+		\item Número de funciones: sean $A$ y $B$ conjuntos con $m=|A|$ y $n=|B|$. Sea $f : A \to B$:
+		\begin{itemize}
+			\item Si $m \leq n$, entonces hay $\displaystyle m!\binom{n}{m}$ funciones inyectivas $f$.
+			\item Si $m=n$, entonces hay $n!$ funciones biyectivas $f$.
+			\item Si $m \geq n$, entonces hay $n!\stirlingII{m}{n}$ funciones suprayectivas $f$.
+		\end{itemize}
+		\item Barras y estrellas: ¿cuántas soluciones en los enteros no negativos tiene la ecuación $\displaystyle \sum_{i=1}^{k}x_i = n$? Tiene  $\displaystyle \binom{n+k-1}{k-1}$ soluciones.
+		\item ¿Cuántas soluciones en los enteros positivos tiene la ecuación $\displaystyle \sum_{i=1}^{k}x_i = n$? Tiene  $\displaystyle \binom{n-1}{k-1}$ soluciones.
+		\item Desordenamientos: $a_0=1$, $a_1=0$, $a_n=(n-1)(a_{n-1}+a_{n-2})=na_{n-1}+(-1)^n$.
+		\item Sea $f(x)$ una función. Sea $g_n(x)=x g_{n-1}'(x)$ con $g_0(x)=f(x)$. Entonces $g_n(x)=\sum_{k=0}^{n} \stirlingII{n}{k} x^k f^{(k)}(x)$.
+		\item Supongamos que tenemos $m+1$ puntos: $(0, y_0)$, $(1, y_1)$, $\ldots$, $(m, y_m)$. Entonces el polinomio $P(x)$ de grado $m$ que pasa por todos ellos es:
+		\begin{align*}
+			P(x) &= \left[ \prod_{i=0}^{m}(x-i) \right] (-1)^m \sum_{i=0}^{m} \dfrac{y_i (-1)^i}{(x-i)i!(m-i)!}
+		\end{align*}
+		\item Sea $a_0, a_1, \ldots$ una recurrencia lineal homogénea de grado $d$ dada por $\displaystyle a_n=\sum_{i=1}^{d} b_i a_{n-i}$ para $n \geq d$ con términos iniciales $a_0, a_1, \ldots, a_{d-1}$. Sean $A(x)$ y $B(x)$ las funciones generadoras de las sucesiones $a_n$ y $b_n$ respectivamente, entonces se cumple que $A(x)=\dfrac{A_0(x)}{1-B(x)}$, donde $\displaystyle A_0(x)=\sum_{i=0}^{d-1} \left[ a_i - \sum_{j=0}^{i-1}a_j b_{i-j} \right] x^i$.
+		\item Si queremos obtener otra recurrencia $c_n$ tal que $c_n=a_{kn}$, las raíces del polinomio característico de $c_n$ se obtienen al elevar todas las raíces del polinomio característico de $a_n$ a la $k$-ésima potencia; y sus términos iniciales serán $a_0, a_k, \ldots, a_{k(d-1)}$.
+	\end{itemize}
+
+	\subsection{Cycles}
+		Let $g_S(n)$ be the number of $n$-permutations whose cycle lengths all belong to the set $S$. Then
+		$$\sum_{n=0} ^\infty g_S(n) \frac{x^n}{n!} = \exp\left(\sum_{n\in S} \frac{x^n} {n} \right)$$
+
+	\subsection{The twelvefold way} ¿Cuántas funciones $f \colon N \rightarrow X$ hay?
+
+	\ 
+
+	\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	$N$ & $X$ & Any $f$ & Injective & Surjective \\ \hline
+	dist. & dist. & $x^n$ & $(x)_n$ & $x! \stirlingII{n}{x}$ \\ \hline
+	indist. & dist. & $\binom{x+n-1}{n}$ & $\binom{x}{n}$ & $\binom{n-1}{n-x}$ \\ \hline
+	dist. & indist. & $\stirlingII{n}{1} + \ldots + \stirlingII{n}{x}$ & $[n \leq x]$ & $\stirlingII{n}{k}$ \\ \hline
+	indist. & indist. & $p_1(n) + \ldots p_x(n)$ & $[n \leq x]$ & $p_x(n)$ \\ \hline
+	\end{tabular}
+
+	\ 
+
+	Where $\binom{a}{b} = \frac{1}{b!}(a)_b $ and $p_x(n)$ is the number of ways to partition the integer $n$ using $x$ summands.
+
+	\subsection{Derangements}
+		Permutations of a set such that none of the elements appear in their original position.
+		\[ \mkern-2mu D(n) = (n-1)(D(n-1)+D(n-2)) = n D(n-1)+(-1)^n = \left\lfloor\frac{n!}{e}\right\rceil \]
+		\begin{equation*}
+			!n = (n - 1)( !(n - 1) + !(n - 2) ); !1 = 0, !2 = 1
+		  \end{equation*}
+		  
+		  \begin{equation*}
+			!n = n! \sum_{k = 0}^n \frac{(-1)^k}{k!}
+		  \end{equation*}
+		  
+	\subsection{Burnside's lemma}
+		Given a group $G$ of symmetries and a set $X$, the number of elements of $X$ \emph{up to symmetry} equals
+		 \[ {\frac {1}{|G|}}\sum _{{g\in G}}|X^{g}|, \]
+		 where $X^{g}$ are the elements fixed by $g$ ($g.x = x$).
+
+		 If $f(n)$ counts ``configurations'' (of some sort) of length $n$, we can ignore rotational symmetry using $G = \mathbb Z_n$ to get
+		 \[ g(n) = \frac 1 n \sum_{k=0}^{n-1}{f(\text{gcd}(n, k))} = \frac 1 n \sum_{k|n}{f(k)\phi(n/k)}. \]
+
+		 
+\section{Partitions and subsets}
+	\subsection{Partition function}
+		Number of ways of writing $n$ as a sum of positive integers, disregarding the order of the summands.
+		\[ p(0) = 1,\ p(n) = \sum_{k \in \mathbb Z \setminus \{0\}}{(-1)^{k+1} p(n - k(3k-1) / 2)} \]
+		\[ p(n) \sim 0.145 / n \cdot \exp(2.56 \sqrt{n}) \]
+
+		\begin{center}
+		\begin{tabular}{c|c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c}
+			$n$    & 0 & 1 & 2 & 3 & 4 & 5 & 6  & 7  & 8  & 9  & 20  & 50  & 100 \\ \hline
+			$p(n)$ & 1 & 1 & 2 & 3 & 5 & 7 & 11 & 15 & 22 & 30 & 627 & $\mathtt{\sim}$2e5 & $\mathtt{\sim}$2e8 \\
+		\end{tabular}
+		\end{center}
+
+	\subsection{Lucas' Theorem}
+		Let $n,m$ be non-negative integers and $p$ a prime. Write $n=n_kp^k+...+n_1p+n_0$ and $m=m_kp^k+...+m_1p+m_0$. Then 
+		\begin{align*}
+			\binom{m}{n} &\equiv \prod_{i=0}^{k} \binom{m_i}{k_i} \pmod{p} \\
+			m = \sum_{i=0}^{k} m_i p^i \quad &, \quad n = \sum_{i=0}^{k} n_i p^i \\
+			0 \leq m_i &, n_i < p
+		\end{align*}
+
+	\subsection{Binomials}
+		\kactlimport{multinomial.cpp}
+		\kactlimport{BinomialCoeficients.cpp}
+
+\section{General purpose numbers}
+	\subsection{Bernoulli numbers}
+		EGF of Bernoulli numbers is $B(t)=\frac{t}{e^t-1}$ (FFT-able).
+		$B[0,\ldots] = [1, -\frac{1}{2}, \frac{1}{6}, 0, -\frac{1}{30}, 0, \frac{1}{42}, \ldots]$
+
+		Sums of powers:
+		\small
+		\[ \sum_{i=1}^n n^m = \frac{1}{m+1} \sum_{k=0}^m \binom{m+1}{k} B_k \cdot (n+1)^{m+1-k} \]
+		\normalsize
+
+		Euler-Maclaurin formula for infinite sums:
+		\small
+		\[ \sum_{i=m}^{\infty} f(i) = \int_m^\infty f(x) dx - \sum_{k=1}^\infty \frac{B_k}{k!}f^{(k-1)}(m) \]
+		\[ \approx \int_{m}^\infty f(x)dx + \frac{f(m)}{2} - \frac{f'(m)}{12} + \frac{f'''(m)}{720} + O(f^{(5)}(m)) \]
+		\normalsize
+
+	\subsection{Stirling numbers of the first kind}
+		Number of permutations on $n$ items with $k$ cycles.
+		\begin{align*}
+			&c(n,k) = c(n-1,k-1) + (n-1) c(n-1,k),\ c(0,0) = 1 \\
+			&\textstyle \sum_{k=0}^n c(n,k)x^k = x(x+1) \dots (x+n-1)
+		\end{align*}
+		$c(8,k) = 8, 0, 5040, 13068, 13132, 6769, 1960, 322, 28, 1$ \\
+		$c(n,2) = 0, 0, 1, 3, 11, 50, 274, 1764, 13068, 109584, \dots$
+
+	\subsection{Eulerian numbers}
+		Number of permutations $\pi \in S_n$ in which exactly $k$ elements are greater than the previous element. $k$ $j$:s s.t. $\pi(j)>\pi(j+1)$, $k+1$ $j$:s s.t. $\pi(j)\geq j$, $k$ $j$:s s.t. $\pi(j)>j$.
+		$$E(n,k) = (n-k)E(n-1,k-1) + (k+1)E(n-1,k)$$
+		$$E(n,0) = E(n,n-1) = 1$$
+		$$E(n,k) = \sum_{j=0}^k(-1)^j\binom{n+1}{j}(k+1-j)^n$$
+
+	\subsection{Stirling numbers of the second kind}
+		Partitions of $n$ distinct elements into exactly $k$ groups.
+		$$S(n,k) = S(n-1,k-1) + k S(n-1,k)$$
+		$$S(n,1) = S(n,n) = 1$$
+		$$S(n,k) = \frac{1}{k!}\sum_{j=0}^k (-1)^{k-j}\binom{k}{j}j^n$$
+
+	\subsection{Bell numbers}
+		Total number of partitions of $n$ distinct elements. $B(n) =$
+		$1, 1, 2, 5, 15, 52, 203, 877, 4140, 21147, \dots$. For $p$ prime,
+		\[ B(p^m+n)\equiv mB(n)+B(n+1) \pmod{p} \]
+
+	\subsection{Labeled unrooted trees}
+		\# on $n$ vertices: $n^{n-2}$ \\
+		\# on $k$ existing trees of size $n_i$: $n_1n_2\cdots n_k n^{k-2}$ \\
+		\# with degrees $d_i$: $(n-2)! / ((d_1-1)! \cdots (d_n-1)!)$
+
+	\subsection{Catalan numbers}
+		\[ C_n=\frac{1}{n+1}\binom{2n}{n}= \binom{2n}{n}-\binom{2n}{n+1} = \frac{(2n)!}{(n+1)!n!} \]
+		\[ C_0=1,\ C_{n+1} = \frac{2(2n+1)}{n+2}C_n,\ C_{n+1}=\sum C_iC_{n-i} \]
+		${C_n = 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, \dots}$
+		\begin{itemize}[noitemsep]
+			\item sub-diagonal monotone paths in an $n\times n$ grid.
+			\item strings with $n$ pairs of parenthesis, correctly nested.
+			\item binary trees with with $n+1$ leaves (0 or 2 children).
+			\item ordered trees with $n+1$ vertices.
+			\item ways a convex polygon with $n+2$ sides can be cut into triangles by connecting vertices with straight lines.
+			\item permutations of $[n]$ with no 3-term increasing subseq.
+		\end{itemize}
+
+		\subsection{Números de Catal\'an} están definidos por la recurrencia:
+		\begin{equation*}
+		  C_{n+1} = \sum_{i=0}^nC_iC_{n-i}
+		\end{equation*}
+		
+		\subsection{Números de Stirling del primer tipo}
+					$\stirlingI{n}{k}$ representa el número de permutaciones de $n$ elementos en exactamente $k$ ciclos disjuntos.
+					\begin{align*}
+						\stirlingI{0}{0} &= 1 \\
+						\stirlingI{0}{n} &= \stirlingI{n}{0} = 0 \quad &, \quad n>0 \\
+						\stirlingI{n}{k} &= (n-1)\stirlingI{n-1}{k} + \stirlingI{n-1}{k-1} \quad &, \quad k>0 \\
+						\sum_{k=0}^{n} \stirlingI{n}{k} &= n! \\
+						\sum_{k=0}^{\infty} \stirlingI{n}{k} x^k &= \prod_{k=0}^{n-1}(x+k)
+					\end{align*}
+				
+				\subsection{Números de Stirling del segundo tipo}
+					$\stirlingII{n}{k}$ representa el número de formas de particionar un conjunto de $n$ objetos distinguibles en $k$ subconjuntos no vacíos.
+					\begin{align*}
+						\stirlingII{0}{0} &= 1 \\
+						\stirlingII{0}{n} &= \stirlingII{n}{0} = 0 \quad &, \quad n>0 \\
+						\stirlingII{n}{k} &= k\stirlingII{n-1}{k} + \stirlingII{n-1}{k-1} \quad &, \quad k>0 \\
+						&= \sum_{j=0}^{k} \dfrac{j^n}{j!} \cdot \dfrac{(-1)^{k-j}}{(k-j)!}
+					\end{align*}
+				
+				\subsection{Números de Euler}
+					$\euler{n}{k}$ representa el número de permutaciones de $1$ a $n$ en donde exactamente $k$ números son mayores que el número anterior, es decir, cuántas permutaciones tienen $k$ ``ascensos''.
+					\begin{align*}
+						\euler{1}{0} &= 1 \\
+						\euler{n}{k} &= (n-k)\euler{n-1}{k-1} + (k+1)\euler{n-1}{k} \quad &, \quad n \geq 2 \\
+						&= \sum_{j=0}^{k} (-1)^j \binom{n+1}{j} (k+1-j)^n \\
+						\sum_{k=0}^{n-1} \euler{n}{k} &= n!
+					\end{align*}
+				
+				\subsection{Números de Catalan}
+					\begin{align*}
+						C_0 &= 1 \\
+						C_n &= \dfrac{1}{n+1}\binom{2n}{n} = \sum_{j=0}^{n-1} C_j C_{n-1-j} \\
+						\sum_{n=0}^{\infty} C_n x^n &= \dfrac{1-\sqrt{1-4x}}{2x}
+					\end{align*}
+				
+				\subsection{Números de Bell}
+					$B_n$ representa el número de formas de particionar un conjunto de $n$ elementos.
+					\begin{align*}
+						B_n &= \sum_{k=0}^{n}\stirlingII{n}{k} = \sum_{k=0}^{n-1}\binom{n-1}{k} B_k \\
+						\sum_{n=0}^{\infty} \dfrac{B_n}{n!}x^n &= e^{e^x-1}
+					\end{align*}
+				
+				\subsection{Números de Bernoulli}
+					\begin{align*}
+						{B_0}^+ &= 1 \\
+						{B_n}^+ &= 1 - \sum_{k=0}^{n-1}\binom{n}{k}\dfrac{{B_k}^+}{n-k+1} \\
+						\sum_{n=0}^{\infty} \dfrac{{B_n}^+ x^n}{n!} &= \dfrac{x}{1-e^{-x}} = \dfrac{1}{\frac{1}{1!}-\frac{x}{2!}+\frac{x^2}{3!}-\frac{x^3}{4!}+\cdots}
+					\end{align*}
+				
