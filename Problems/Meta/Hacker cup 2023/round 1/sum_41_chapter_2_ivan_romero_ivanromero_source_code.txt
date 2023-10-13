@@ -1,0 +1,112 @@
+// Rbrgs.cpp
+#include <bits/stdc++.h>
+
+#define PI 3.141592653589793238462643383279502884197169399375105820974944592307816406286
+#define EPS 1e-6
+#define INF 1000000000
+#define LLINF 1000000000000000000LL
+#define MOD 1000000007
+#define MAXN 1000005
+
+#define sync ios_base::sync_with_stdio(0), cin.tie(0), cin.tie(0), cout.tie(0), cout.precision(15)
+#define FOR(i, a, b) for (int i = int(a); i < int(b); i++)
+#define RFOR(i, a, b) for (int i = int(a) - 1; i >= int(b); i--)
+#define FORC(it, cont) for (auto it = (cont).begin(); it != (cont).end(); it++)
+#define RFORC(it, cont) for (auto it = (cont).rbegin(); it != (cont).rend(); it++)
+#define aFor(i, a) for (auto &i : a)
+#define pb push_back
+
+using namespace std;
+
+typedef long long ll;
+typedef pair<int, int> ii;
+typedef vector<int> vi;
+typedef vector<ll> vl;
+
+void posible(int i, int p, int suma, vi &res, vector<pair<int, vi>> &sumaRes)
+{
+    if (i == 1 || suma > 41 || res.size() > 100)
+    {
+        return;
+    }
+    if (p == 1)
+    {
+        sumaRes.push_back({suma, res});
+        return;
+    }
+    for (int j = i; j >= 1; j--)
+    {
+        if (p % j == 0)
+        {
+            suma += j;
+            p /= j;
+            res.push_back(j);
+            posible(j, p, suma, res, sumaRes);
+            res.pop_back();
+            p *= j;
+            suma -= j;
+        }
+    }
+    return;
+    // if (p % i == 0)
+    // {
+    //     suma += i;
+    //     p /= i;
+    //     res.push_back(i);
+    //     if (posible(i, p, suma, res))
+    //     {
+    //         return true;
+    //     }
+    //     res.pop_back();
+    //     p *= i;
+    //     suma -= i;
+    // }
+    // return posible(i - 1, p, suma, res);
+}
+
+int main()
+{
+    sync;
+
+    int T, P;
+    cin >> T;
+    for (int I = 1; I <= T; I++)
+    {
+        cout << "Case #" << I << ": ";
+        cin >> P;
+        vi res;
+        int suma = 0;
+        vector<pair<int, vi>> asd;
+        posible(41, P, suma, res, asd);
+        if (asd.size() == 0)
+        {
+            cout << -1 << endl;
+        }
+        else
+        {
+            int best_size_yet = asd[0].second.size() + (41 - asd[0].first);
+            int best_index = 0;
+            for (int i = 1; i < asd.size(); i++)
+            {
+                if (asd[i].second.size() + (41 - asd[i].first) < best_size_yet)
+                {
+                    best_index = i;
+                    best_size_yet = asd[i].second.size() + (41 - asd[i].first);
+                }
+            }
+            // cout << asd[best_index].second.size() + (41 - asd[best_index].first);
+            cout << best_size_yet;
+            aFor(it, asd[best_index].second)
+            {
+                cout << " " << it;
+            }
+            for (int i = 0; i < 41 - asd[best_index].first; i++)
+            {
+                cout << " " << 1;
+            }
+            cout << endl;
+        }
+    }
+
+    return 0;
+}

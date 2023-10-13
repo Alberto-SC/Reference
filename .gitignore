@@ -1,0 +1,23 @@
+/others 
+/tools
+/resources
+/Extended reference 
+/.vscode
+/.cph
+/__pycache__
+/_minted-*
+/logs
+/build
+/Original problems
+/vjudge
+/problems/training
+.out
+.in
+.exe
+*in 
+*out
+.txt
+.vscode
+.zip
+*out
+cspell.json
